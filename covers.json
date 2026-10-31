@@ -1,0 +1,748 @@
+{
+  "axiom verge": {
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/332200/library_600x900.jpg",
+    "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/332200/header.jpg",
+    "steamAppId": 332200,
+    "source": "steam"
+  },
+  "axiom verge 2": {
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/946030/library_600x900.jpg",
+    "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/946030/header.jpg",
+    "steamAppId": 946030,
+    "source": "steam"
+  },
+  "baldur's gate 3": {
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/library_600x900.jpg",
+    "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/header.jpg",
+    "steamAppId": 1086940,
+    "source": "steam"
+  },
+  "bloodstained: ritual of the night": {
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/692850/library_600x900.jpg",
+    "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/692850/header.jpg",
+    "steamAppId": 692850,
+    "source": "steam"
+  },
+  "celeste": {
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/504230/library_600x900.jpg",
+    "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/504230/header.jpg",
+    "steamAppId": 504230,
+    "source": "steam"
+  },
+  "control": {
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/870780/library_600x900.jpg",
+    "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/870780/header.jpg",
+    "steamAppId": 870780,
+    "source": "steam"
+  },
+  "control ultimate edition": {
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/870780/library_600x900.jpg",
+    "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/870780/header.jpg",
+    "steamAppId": 870780,
+    "source": "steam"
+  },
+  "darkest dungeon": {
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/262060/library_600x900.jpg",
+    "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/262060/header.jpg",
+    "steamAppId": 262060,
+    "source": "steam"
+  },
+  "diablo ii: resurrected": {
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2536520/library_600x900.jpg",
+    "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2536520/header.jpg",
+    "steamAppId": 2536520,
+    "source": "steam"
+  },
+  "factorio": {
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427520/library_600x900.jpg",
+    "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427520/header.jpg",
+    "steamAppId": 427520,
+    "source": "steam"
+  },
+  "hades ii": {
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145350/library_600x900.jpg",
+    "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145350/header.jpg",
+    "steamAppId": 1145350,
+    "source": "steam"
+  },
+  "minishoot' adventures": {
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1634860/library_600x900.jpg",
+    "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1634860/header.jpg",
+    "steamAppId": 1634860,
+    "source": "steam"
+  },
+  "oxygen not included": {
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/457140/library_600x900.jpg",
+    "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/457140/header.jpg",
+    "steamAppId": 457140,
+    "source": "steam"
+  },
+  "portal 2": {
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/620/library_600x900.jpg",
+    "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/620/header.jpg",
+    "steamAppId": 620,
+    "source": "steam"
+  },
+  "tactical breach wizards": {
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1043810/library_600x900.jpg",
+    "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1043810/header.jpg",
+    "steamAppId": 1043810,
+    "source": "steam"
+  },
+  "tunic": {
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553420/library_600x900.jpg",
+    "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553420/header.jpg",
+    "steamAppId": 553420,
+    "source": "steam"
+  },
+  "vampire survivors": {
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1794680/library_600x900.jpg",
+    "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1794680/header.jpg",
+    "steamAppId": 1794680,
+    "source": "steam"
+  },
+  "v rising": {
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1604030/library_600x900.jpg",
+    "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1604030/header.jpg",
+    "steamAppId": 1604030,
+    "source": "steam"
+  },
+  "cook, serve, delicious! 2!!": {
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/386620/library_600x900.jpg",
+    "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/386620/header.jpg",
+    "steamAppId": 386620,
+    "source": "steam"
+  },
+  "crypt of the necrodancer": {
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/247080/library_600x900.jpg",
+    "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/247080/header.jpg",
+    "steamAppId": 247080,
+    "source": "steam"
+  },
+  "cuphead": {
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/268910/library_600x900.jpg",
+    "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/268910/header.jpg",
+    "steamAppId": 268910,
+    "source": "steam"
+  },
+  "left 4 dead": {
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/500/library_600x900.jpg",
+    "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/500/header.jpg",
+    "steamAppId": 500,
+    "source": "steam"
+  },
+  "left 4 dead 2": {
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/550/library_600x900.jpg",
+    "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/550/header.jpg",
+    "steamAppId": 550,
+    "source": "steam"
+  },
+  "path of exile": {
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/238960/library_600x900.jpg",
+    "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/238960/header.jpg",
+    "steamAppId": 238960,
+    "source": "steam"
+  },
+  "path of exile 2": {
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2694490/library_600x900.jpg",
+    "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2694490/header.jpg",
+    "steamAppId": 2694490,
+    "source": "steam"
+  },
+  "curse of the dead gods": {
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1123770/library_600x900.jpg",
+    "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1123770/header.jpg",
+    "steamAppId": 1123770,
+    "source": "steam"
+  },
+  "dave the diver": {
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1868140/library_600x900.jpg",
+    "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1868140/header.jpg",
+    "steamAppId": 1868140,
+    "source": "steam"
+  },
+  "dead cells": {
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/588650/library_600x900.jpg",
+    "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/588650/header.jpg",
+    "steamAppId": 588650,
+    "source": "steam"
+  },
+  "death's door": {
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/894020/library_600x900.jpg",
+    "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/894020/header.jpg",
+    "steamAppId": 894020,
+    "source": "steam"
+  },
+  "conduct together!": {
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/523650/library_600x900.jpg",
+    "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/523650/header.jpg",
+    "steamAppId": 523650,
+    "source": "steam"
+  },
+  "big brain academy: brain vs. brain": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Big_Brain_Academy_Logo.png/500px-Big_Brain_Academy_Logo.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "fallbackUrl": null,
+    "source": "wikipedia"
+  },
+  "a plague tale: innocence": {
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/752590/library_600x900.jpg",
+    "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/752590/header.jpg",
+    "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/752590/capsule_231x87.jpg?t=1784712345",
+    "steamAppId": 752590,
+    "source": "steam-cs"
+  },
+  "aimlabs": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Aim_trainer_shooting_range.svg/500px-Aim_trainer_shooting_range.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "fallbackUrl": null,
+    "source": "wikipedia"
+  },
+  "alpha protocol": {
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/34010/library_600x900.jpg",
+    "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/34010/header.jpg",
+    "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/34010/capsule_231x87.jpg?t=1769707772",
+    "steamAppId": 34010,
+    "source": "steam-cs"
+  },
+  "animal crossing: new horizons": {
+    "url": "https://cdn.humblebundle.com/misc/files/hashed/a1bc08291751ef92cec614748c50e7546b615b57.jpg",
+    "fallbackUrl": null,
+    "source": "cheapshark"
+  },
+  "assassin's creed": {
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/33230/library_600x900.jpg",
+    "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/33230/header.jpg",
+    "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/33230/capsule_231x87.jpg?t=1786611094",
+    "steamAppId": 33230,
+    "source": "steam-cs"
+  },
+  "assassin's creed ii": {
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/33230/library_600x900.jpg",
+    "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/33230/header.jpg",
+    "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/33230/capsule_231x87.jpg?t=1786611094",
+    "steamAppId": 33230,
+    "source": "steam-cs"
+  },
+  "assemble with care": {
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1202900/library_600x900.jpg",
+    "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1202900/header.jpg",
+    "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1202900/capsule_231x87.jpg?t=1780069462",
+    "steamAppId": 1202900,
+    "source": "steam-cs"
+  },
+  "astral ascent": {
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1280930/library_600x900.jpg",
+    "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1280930/header.jpg",
+    "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1280930/8326b5c061ca3c8eb24ee9a45d4b5a93f379067c/capsule_231x87.jpg?t=1791479357",
+    "steamAppId": 1280930,
+    "source": "steam-cs"
+  },
+  "athena crisis": {
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2456430/library_600x900.jpg",
+    "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2456430/header.jpg",
+    "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2456430/capsule_231x87.jpg?t=1750289622",
+    "steamAppId": 2456430,
+    "source": "steam-cs"
+  },
+  "astro bot": {
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2720920/library_600x900.jpg",
+    "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2720920/header.jpg",
+    "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2720920/f89d47afe84e486a77b9f33aa6e0f3e4e0f34438/capsule_231x87.jpg?t=1780160366",
+    "steamAppId": 2720920,
+    "source": "steam-cs"
+  },
+  "baby steps": {
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1281040/library_600x900.jpg",
+    "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1281040/header.jpg",
+    "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1281040/679586648f549d74c49c7d4609e3d0a3ac6a56a0/capsule_231x87.jpg?t=1761065780",
+    "steamAppId": 1281040,
+    "source": "steam-cs"
+  },
+  "ball x pit": {
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2062430/library_600x900.jpg",
+    "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2062430/header.jpg",
+    "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2062430/93669476208e773101f9949b9e668322fc39ef85/capsule_231x87.jpg?t=1790869056",
+    "steamAppId": 2062430,
+    "source": "steam-cs"
+  },
+  "barony": {
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/371970/library_600x900.jpg",
+    "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/371970/header.jpg",
+    "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/371970/dbf26f8eaf1174caa3c266a5194734cdddc4e491/capsule_231x87.jpg?t=1785259607",
+    "steamAppId": 371970,
+    "source": "steam-cs"
+  },
+  "bastion": {
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/107100/library_600x900.jpg",
+    "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/107100/header.jpg",
+    "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/107100/capsule_231x87.jpg?t=1729113932",
+    "steamAppId": 107100,
+    "source": "steam-cs"
+  },
+  "batman: arkham asylum": {
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/35140/library_600x900.jpg",
+    "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/35140/header.jpg",
+    "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/35140/capsule_231x87.jpg?t=1745966724",
+    "steamAppId": 35140,
+    "source": "steam-cs"
+  },
+  "batman: arkham asylum goty edition": {
+    "url": "https://cdn.humblebundle.com/misc/files/hashed/2a07e9e90c9af53c5120151c9ff4e0aa3771ce99.jpeg",
+    "fallbackUrl": null,
+    "source": "cheapshark"
+  },
+  "bioshock": {
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/7670/library_600x900.jpg",
+    "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/7670/header.jpg",
+    "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/7670/capsule_231x87.jpg?t=1730172622",
+    "steamAppId": 7670,
+    "source": "steam-cs"
+  },
+  "bioshock 2": {
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/8850/library_600x900.jpg",
+    "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/8850/header.jpg",
+    "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/8850/capsule_231x87.jpg?t=1730174099",
+    "steamAppId": 8850,
+    "source": "steam-cs"
+  },
+  "bioshock infinite": {
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/8870/library_600x900.jpg",
+    "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/8870/header.jpg",
+    "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/8870/capsule_231x87.jpg?t=1728673518",
+    "steamAppId": 8870,
+    "source": "steam-cs"
+  },
+  "bioshock 2 remastered": {
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/409720/library_600x900.jpg",
+    "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/409720/header.jpg",
+    "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/409720/capsule_231x87.jpg?t=1740443705",
+    "steamAppId": 409720,
+    "source": "steam-cs"
+  },
+  "bioshock remastered": {
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/409710/library_600x900.jpg",
+    "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/409710/header.jpg",
+    "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/409710/capsule_231x87.jpg?t=1740443728",
+    "steamAppId": 409710,
+    "source": "steam-cs"
+  },
+  "borderlands 2": {
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/49520/library_600x900.jpg",
+    "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/49520/header.jpg",
+    "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/49520/capsule_231x87.jpg?t=1793288352",
+    "steamAppId": 49520,
+    "source": "steam-cs"
+  },
+  "borderlands goty": {
+    "url": "https://cdn.static.nexway.com/images/products/2KGames/Borderlands-GOTY-Enhanced_280.jpg",
+    "fallbackUrl": null,
+    "source": "cheapshark"
+  },
+  "borderlands goty enhanced": {
+    "url": "https://cdn.static.nexway.com/images/products/2KGames/Borderlands-GOTY-Enhanced_280.jpg",
+    "fallbackUrl": null,
+    "source": "cheapshark"
+  },
+  "call of duty: modern warfare 2 (2009)": {
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/10180/library_600x900.jpg",
+    "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/10180/header.jpg",
+    "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/10180/capsule_231x87.jpg?t=1780962606",
+    "steamAppId": 10180,
+    "source": "steam-cs"
+  },
+  "call of duty: modern warfare 2 (2009) - multiplayer": {
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/10180/library_600x900.jpg",
+    "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/10180/header.jpg",
+    "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/10180/capsule_231x87.jpg?t=1780962606",
+    "steamAppId": 10180,
+    "source": "steam-cs"
+  },
+  "cave story+": {
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/200900/library_600x900.jpg",
+    "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/200900/header.jpg",
+    "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/200900/b33f9c291f8b710eb7f61ca0241a88541ff56438/capsule_231x87.jpg?t=1790010222",
+    "steamAppId": 200900,
+    "source": "steam-cs"
+  },
+  "cities: skylines": {
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/255710/library_600x900.jpg",
+    "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/255710/header.jpg",
+    "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/255710/4cf458b43b41e4f86d3e4e604e7a7577c7926b01/capsule_231x87.jpg?t=1791468493",
+    "steamAppId": 255710,
+    "source": "steam-cs"
+  },
+  "command & conquer remastered collection": {
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1213210/library_600x900.jpg",
+    "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1213210/header.jpg",
+    "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1213210/capsule_231x87.jpg?t=1779987581",
+    "steamAppId": 1213210,
+    "source": "steam-cs"
+  },
+  "civcity: rome": {
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3980/library_600x900.jpg",
+    "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3980/header.jpg",
+    "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3980/capsule_231x87.jpg?t=1569015577",
+    "steamAppId": 3980,
+    "source": "steam-cs"
+  },
+  "counter-strike: source": {
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/240/library_600x900.jpg",
+    "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/240/header.jpg",
+    "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/240/capsule_231x87.jpg?t=1745368575",
+    "steamAppId": 240,
+    "source": "steam-cs"
+  },
+  "cryptmaster": {
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1885110/library_600x900.jpg",
+    "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1885110/header.jpg",
+    "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1885110/ebb21e04430f470f10b122326f1bcbc637ab9793/capsule_231x87.jpg?t=1791218140",
+    "steamAppId": 1885110,
+    "source": "steam-cs"
+  },
+  "cult of the lamb": {
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1313140/library_600x900.jpg",
+    "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1313140/header.jpg",
+    "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1313140/1ac7c83bd1ce239a12d8e67b8ebc45765bb60319/capsule_231x87.jpg?t=1786554901",
+    "steamAppId": 1313140,
+    "source": "steam-cs"
+  },
+  "dark messiah of might & magic single player": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Heroes_of_Might_and_Magic_logo_wordmark.png/500px-Heroes_of_Might_and_Magic_logo_wordmark.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "fallbackUrl": null,
+    "source": "wikipedia"
+  },
+  "dark messiah of might & magic multi-player": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Supertux010.jpg/500px-Supertux010.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "fallbackUrl": null,
+    "source": "wikipedia"
+  },
+  "destiny 2": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Destiny_Logo.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "fallbackUrl": null,
+    "source": "wikipedia"
+  },
+  "deus ex: human revolution": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Deus_Ex_Universe_logo.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "fallbackUrl": null,
+    "source": "wikipedia"
+  },
+  "don't starve": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Klei_Entertainment.svg/500px-Klei_Entertainment.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "fallbackUrl": null,
+    "source": "wikipedia"
+  },
+  "don't starve together": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Klei_Entertainment.svg/500px-Klei_Entertainment.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "fallbackUrl": null,
+    "source": "wikipedia"
+  },
+  "doom": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Doom_%E2%80%93_Game%E2%80%99s_logo.svg/500px-Doom_%E2%80%93_Game%E2%80%99s_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "fallbackUrl": null,
+    "source": "wikipedia"
+  },
+  "dosa divas": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Nintendo_Switch_2_in_Handheld_Mode.png/500px-Nintendo_Switch_2_in_Handheld_Mode.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "fallbackUrl": null,
+    "source": "wikipedia"
+  },
+  "doom eternal": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Doom_%E2%80%93_Game%E2%80%99s_logo.svg/500px-Doom_%E2%80%93_Game%E2%80%99s_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "fallbackUrl": null,
+    "source": "wikipedia"
+  },
+  "dust: an elysian tail": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Michael_Johnston_at_the_2025_Toronto_International_Film_Festival_05_%28cropped%29.jpg/500px-Michael_Johnston_at_the_2025_Toronto_International_Film_Festival_05_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "fallbackUrl": null,
+    "source": "wikipedia"
+  },
+  "fallout 4": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Fallout_logo.svg/500px-Fallout_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "fallbackUrl": null,
+    "source": "wikipedia"
+  },
+  "fallout 3": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Fallout_logo.svg/500px-Fallout_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "fallbackUrl": null,
+    "source": "wikipedia"
+  },
+  "for honor": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Medalofhonor_gamelogo.png/500px-Medalofhonor_gamelogo.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "fallbackUrl": null,
+    "source": "wikipedia"
+  },
+  "freedom force vs. the 3rd reich": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Ken_Levine_2014_GDC_cropped.jpg/500px-Ken_Levine_2014_GDC_cropped.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "fallbackUrl": null,
+    "source": "wikipedia"
+  },
+  "ftl: faster than light": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/FTL_Faster_Than_Light_Logo.svg/500px-FTL_Faster_Than_Light_Logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "fallbackUrl": null,
+    "source": "wikipedia"
+  },
+  "frozen synapse": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/T3D_Logo.svg/500px-T3D_Logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "fallbackUrl": null,
+    "source": "wikipedia"
+  },
+  "genshin impact": {
+    "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/5/5d/Genshin_Impact_logo.svg/500px-Genshin_Impact_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "fallbackUrl": null,
+    "source": "wikipedia"
+  },
+  "goat simulator 3": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Farming_Simulator_Logo.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "fallbackUrl": null,
+    "source": "wikipedia"
+  },
+  "gorilla tag": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Gorilla_Tag_Logo_Black.svg/500px-Gorilla_Tag_Logo_Black.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "fallbackUrl": null,
+    "source": "wikipedia"
+  },
+  "hack and climb": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Easports_fifa_logo.svg/500px-Easports_fifa_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "fallbackUrl": null,
+    "source": "wikipedia"
+  },
+  "hogwarts legacy": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Alexey_Pajitnov_January_2008_cropped.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "fallbackUrl": null,
+    "source": "wikipedia"
+  },
+  "inscryption": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Flotilla_-_planning_%28Blendo_Games%29.jpg/500px-Flotilla_-_planning_%28Blendo_Games%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "fallbackUrl": null,
+    "source": "wikipedia"
+  },
+  "just dance": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/JDNextLandscape.svg/500px-JDNextLandscape.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "fallbackUrl": null,
+    "source": "wikipedia"
+  },
+  "killing floor mod: defence alliance 2": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Insigne_Special_Boat_Service_%28SBS%29.svg/500px-Insigne_Special_Boat_Service_%28SBS%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "fallbackUrl": null,
+    "source": "wikipedia"
+  },
+  "marvel heroes omega": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Marvel_vs_Capcom_logo.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "fallbackUrl": null,
+    "source": "wikipedia"
+  },
+  "marvel's guardians of the galaxy": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Guardians_of_the_Galaxy_Logo_Black.svg/500px-Guardians_of_the_Galaxy_Logo_Black.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "fallbackUrl": null,
+    "source": "wikipedia"
+  },
+  "meccha chameleon": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/HobbyTown_USA_Oshkosh_interior_under_construction_2002_%28The_Backrooms%29.jpg/500px-HobbyTown_USA_Oshkosh_interior_under_construction_2002_%28The_Backrooms%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "fallbackUrl": null,
+    "source": "wikipedia"
+  },
+  "middle-earth: shadow of mordor": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/E3_2011_-_From_Aliens_Demo_Line_%285834938502%29.jpg/500px-E3_2011_-_From_Aliens_Demo_Line_%285834938502%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "fallbackUrl": null,
+    "source": "wikipedia"
+  },
+  "monaco": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Monaco_What%27s_Yours_Is_Mine_poster.png/500px-Monaco_What%27s_Yours_Is_Mine_poster.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "fallbackUrl": null,
+    "source": "wikipedia"
+  },
+  "new pokemon snap": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/500px-International_Pok%C3%A9mon_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "fallbackUrl": null,
+    "source": "wikipedia"
+  },
+  "nidhogg 2": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Nidhogg_video_game_logo.png/500px-Nidhogg_video_game_logo.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "fallbackUrl": null,
+    "source": "wikipedia"
+  },
+  "nintendo switch sports": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Nintendo_Switch_2_logo.svg/500px-Nintendo_Switch_2_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "fallbackUrl": null,
+    "source": "wikipedia"
+  },
+  "noita": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/PowderToy.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "fallbackUrl": null,
+    "source": "wikipedia"
+  },
+  "old school runescape": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/220_Cambridge_Science_Park_looking_east.jpg/500px-220_Cambridge_Science_Park_looking_east.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "fallbackUrl": null,
+    "source": "wikipedia"
+  },
+  "on the rain-slick precipice of darkness, episode one": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/XBLIG_Success_Stories_-_Robert_Boyd_%28cropped%29.jpg/500px-XBLIG_Success_Stories_-_Robert_Boyd_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "fallbackUrl": null,
+    "source": "wikipedia"
+  },
+  "outer wilds": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Universum_TV_Multispiel_2006.jpg/500px-Universum_TV_Multispiel_2006.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "fallbackUrl": null,
+    "source": "wikipedia"
+  },
+  "overwatch": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Mei_from_Overwatch_by_nikuriii.png/500px-Mei_from_Overwatch_by_nikuriii.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "fallbackUrl": null,
+    "source": "wikipedia"
+  },
+  "paw patrol on a roll!": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Spin_Master_logo.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "fallbackUrl": null,
+    "source": "wikipedia"
+  },
+  "pico park": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Wrestler_Aaron_Pico_2014.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "fallbackUrl": null,
+    "source": "wikipedia"
+  },
+  "pragmata": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Pragmata_cover.jpg/500px-Pragmata_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "fallbackUrl": null,
+    "source": "wikipedia"
+  },
+  "quake": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Nexuiz_%28screenshot_04%29.jpg/500px-Nexuiz_%28screenshot_04%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "fallbackUrl": null,
+    "source": "wikipedia"
+  },
+  "return of the obra dinn": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Game_Developers_Choice_Awards_2025_-_Lucas_Pope_-_06_%28cropped%29.jpg/500px-Game_Developers_Choice_Awards_2025_-_Lucas_Pope_-_06_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "fallbackUrl": null,
+    "source": "wikipedia"
+  },
+  "returnal": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Universum_TV_Multispiel_2006.jpg/500px-Universum_TV_Multispiel_2006.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "fallbackUrl": null,
+    "source": "wikipedia"
+  },
+  "restory: chill electronics repairs": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Atari_logo_alt.svg/500px-Atari_logo_alt.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "fallbackUrl": null,
+    "source": "wikipedia"
+  },
+  "roblox": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/2850_S._Delaware_Street.jpg/500px-2850_S._Delaware_Street.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "fallbackUrl": null,
+    "source": "wikipedia"
+  },
+  "satisfactory": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Flotilla_-_planning_%28Blendo_Games%29.jpg/500px-Flotilla_-_planning_%28Blendo_Games%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "fallbackUrl": null,
+    "source": "wikipedia"
+  },
+  "sid meier's civilization iii: complete": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Sid_Meier_-_Game_Developers_Conference_2017_-_01_%28cropped%29.jpg/500px-Sid_Meier_-_Game_Developers_Conference_2017_-_01_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "fallbackUrl": null,
+    "source": "wikipedia"
+  },
+  "sid meier's civilization iv: beyond the sword": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Freeciv-net-screenshot-2011-06-23.png/500px-Freeciv-net-screenshot-2011-06-23.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "fallbackUrl": null,
+    "source": "wikipedia"
+  },
+  "sid meier's civilization v": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Sid_Meier_-_Game_Developers_Conference_2017_-_01_%28cropped%29.jpg/500px-Sid_Meier_-_Game_Developers_Conference_2017_-_01_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "fallbackUrl": null,
+    "source": "wikipedia"
+  },
+  "sid meier's railroads!": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Sid_Meier_-_Game_Developers_Conference_2017_-_01_%28cropped%29.jpg/500px-Sid_Meier_-_Game_Developers_Conference_2017_-_01_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "fallbackUrl": null,
+    "source": "wikipedia"
+  },
+  "spelunky": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Post-Game_Developers_Conference_2010_-_Day_1_%40_Capcom_%284422912558%29.jpg/500px-Post-Game_Developers_Conference_2010_-_Day_1_%40_Capcom_%284422912558%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "fallbackUrl": null,
+    "source": "wikipedia"
+  },
+  "splatoon 3": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Splatoon_monochrome_logo.svg/500px-Splatoon_monochrome_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "fallbackUrl": null,
+    "source": "wikipedia"
+  },
+  "splatoon raiders": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Splatoon_monochrome_logo.svg/500px-Splatoon_monochrome_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "fallbackUrl": null,
+    "source": "wikipedia"
+  },
+  "starfield": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Starfield_-_game_cover.png/500px-Starfield_-_game_cover.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "fallbackUrl": null,
+    "source": "wikipedia"
+  },
+  "star wars: the force unleashed ultimate sith edition": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Star_wars2.svg/500px-Star_wars2.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "fallbackUrl": null,
+    "source": "wikipedia"
+  },
+  "stellaris": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Steven_Savile_%28cropped%29.jpg/500px-Steven_Savile_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "fallbackUrl": null,
+    "source": "wikipedia"
+  },
+  "tera": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Tera_Patrick_2010.jpg/500px-Tera_Patrick_2010.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "fallbackUrl": null,
+    "source": "wikipedia"
+  },
+  "terraria": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/E310-02_%285804349789%29.jpg/500px-E310-02_%285804349789%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "fallbackUrl": null,
+    "source": "wikipedia"
+  },
+  "terratech legion": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Keno_mini_wargame.jpg/500px-Keno_mini_wargame.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "fallbackUrl": null,
+    "source": "wikipedia"
+  },
+  "the castle doctrine": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/The_Castle_Doctrine_Steam_logo.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "fallbackUrl": null,
+    "source": "wikipedia"
+  },
+  "tomodachi life: living the dream": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Tomodachi_Life_series_logo_2026.png/500px-Tomodachi_Life_series_logo_2026.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "fallbackUrl": null,
+    "source": "wikipedia"
+  },
+  "torchlight: infinite": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Taptap-r225x225.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "fallbackUrl": null,
+    "source": "wikipedia"
+  },
+  "towerfall": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Maddy_Thorson_at_ACMI%2C_Melbourne_%28retouched%29_%28cropped%29.jpg/500px-Maddy_Thorson_at_ACMI%2C_Melbourne_%28retouched%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "fallbackUrl": null,
+    "source": "wikipedia"
+  },
+  "trombone champ": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Vinny_%28Vinesauce%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "fallbackUrl": null,
+    "source": "wikipedia"
+  },
+  "ultimate drummer": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Stewart_Copeland_at_SXSW_London_June_2025_%28cropped%29.jpg/500px-Stewart_Copeland_at_SXSW_London_June_2025_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "fallbackUrl": null,
+    "source": "wikipedia"
+  },
+  "untitled goose game": {
+    "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/f/f0/House_House_logo.svg/500px-House_House_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "fallbackUrl": null,
+    "source": "wikipedia"
+  },
+  "world of goo": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/World_of_Goo_Logo.png/500px-World_of_Goo_Logo.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "fallbackUrl": null,
+    "source": "wikipedia"
+  },
+  "zenless zone zero": {
+    "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/d/d2/Zenless_Zone_Zero_curved_box_logo.svg/500px-Zenless_Zone_Zero_curved_box_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "fallbackUrl": null,
+    "source": "wikipedia"
+  }
+}

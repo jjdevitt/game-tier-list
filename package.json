@@ -1,0 +1,9 @@
+{
+  "name": "game-tier-list",
+  "version": "1.0.0",
+  "description": "Interactive Video Game Tier List synced with tier_list.md and library.csv",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  }
+}
