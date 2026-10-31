@@ -4,6 +4,7 @@
   "description": "Interactive Video Game Tier List synced with tier_list.md and library.csv",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "build": "node build-static.js"
   }
 }

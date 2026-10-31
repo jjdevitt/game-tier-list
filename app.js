@@ -17,6 +17,10 @@
   let draggedGameId = null;
   let draggedSourceTier = null;
 
+  // Cover Art Modal state
+  let editingGame = null;
+  let selectedNewCover = null; // { imageUrl, fallbackUrl, dataUrl, source }
+
   // Cover fetching queue & cache
   const coverMemoryCache = new Map();
   const pendingCoverFetches = new Set();
@@ -46,6 +50,26 @@
   const copyMdBtn = document.getElementById('copyMdBtn');
   const markdownPreviewText = document.getElementById('markdownPreviewText');
   const toastContainer = document.getElementById('toastContainer');
+
+  // Cover Modal DOM Elements
+  const coverModal = document.getElementById('coverModal');
+  const coverModalTitle = document.getElementById('coverModalTitle');
+  const coverAssetStatus = document.getElementById('coverAssetStatus');
+  const closeCoverModalBtn = document.getElementById('closeCoverModalBtn');
+  const cancelCoverModalBtn = document.getElementById('cancelCoverModalBtn');
+  const coverPreviewImg = document.getElementById('coverPreviewImg');
+  const coverPreviewEmpty = document.getElementById('coverPreviewEmpty');
+  const customCoverUrlInput = document.getElementById('customCoverUrlInput');
+  const previewUrlBtn = document.getElementById('previewUrlBtn');
+  const customCoverFileInput = document.getElementById('customCoverFileInput');
+  const coverSearchInput = document.getElementById('coverSearchInput');
+  const coverSearchBtn = document.getElementById('coverSearchBtn');
+  const coverCandidatesGrid = document.getElementById('coverCandidatesGrid');
+  const saveCoverBtn = document.getElementById('saveCoverBtn');
+  const resetCoverBtn = document.getElementById('resetCoverBtn');
+  const clipboardPasteZone = document.getElementById('clipboardPasteZone');
+  const pasteZoneLabel = document.getElementById('pasteZoneLabel');
+  const pasteClipboardBtn = document.getElementById('pasteClipboardBtn');
 
   const TIER_COLORS = {
     S: 'var(--tier-s)',
@@ -117,7 +141,18 @@
       toast.style.opacity = '0';
       toast.style.transition = 'opacity 0.25s ease';
       setTimeout(() => toast.remove(), 250);
-    }, 3200);
+    }, 3400);
+  }
+
+  function isFinalizedCover(cover) {
+    if (!cover || !cover.url) return false;
+    // If a game already has a local asset in assets/ or a user-saved custom cover, it does not reload from APIs
+    return Boolean(
+      cover.hasLocalAsset ||
+        cover.isCustom ||
+        cover.source === 'local' ||
+        String(cover.url).startsWith('/assets/')
+    );
   }
 
   function snapshotState() {
@@ -135,6 +170,14 @@
     unsavedBadgeEl.classList.toggle('hidden', !isDirty);
     resetBtn.classList.toggle('hidden', !isDirty);
     saveBtn.classList.toggle('pulse-dirty', isDirty);
+  }
+
+  function findGameInState(gameId) {
+    for (const tier of appState.tiers) {
+      const found = tier.items.find((g) => g.id === gameId);
+      if (found) return found;
+    }
+    return appState.unranked.find((g) => g.id === gameId) || null;
   }
 
   // Generate tier_list.md content on the client (for preview and fallback save)
@@ -187,7 +230,6 @@
     return lines.join('\n');
   }
 
-  // Fallback client-side parser if server API isn't running
   function parseCSVLine(line) {
     const result = [];
     let current = '';
@@ -218,7 +260,6 @@
       if (!res.ok) throw new Error('API unavailable');
       const data = await res.json();
       appState = data;
-      // Populate memory cover cache from initial state
       for (const tier of appState.tiers) {
         for (const item of tier.items) {
           if (item.cover && item.cover.url) {
@@ -234,7 +275,6 @@
       initialSnapshot = snapshotState();
       renderAll();
     } catch (err) {
-      // Fallback: fetch static files directly
       await loadStaticFallback();
     }
   }
@@ -328,9 +368,10 @@
     }
   }
 
-  // Cover Art Resolution Queue (Server + Browser CORS Fallback)
-  function enqueueCoverLookup(gameId, gameName) {
-    if (coverMemoryCache.has(gameId) || pendingCoverFetches.has(gameId)) {
+  // Cover Art Resolution Queue
+  function enqueueCoverLookup(gameId, gameName, force = false) {
+    const existing = coverMemoryCache.get(gameId);
+    if (!force && (isFinalizedCover(existing) || pendingCoverFetches.has(gameId))) {
       return;
     }
     pendingCoverFetches.add(gameId);
@@ -351,21 +392,43 @@
     }
   }
 
+  // Helper: try fetching a remote image URL in the browser as a base64 DataURL so we can store it in local assets/
+  async function tryFetchUrlAsDataUrl(url) {
+    if (!url || url.startsWith('/assets/') || url.startsWith('data:')) return null;
+    try {
+      const res = await fetch(url, { mode: 'cors' });
+      if (!res.ok) return null;
+      const blob = await res.blob();
+      if (!blob || blob.size < 100) return null;
+      return await new Promise((resolve) => {
+        const reader = new FileReader();
+        reader.onloadend = () => resolve(typeof reader.result === 'string' ? reader.result : null);
+        reader.onerror = () => resolve(null);
+        reader.readAsDataURL(blob);
+      });
+    } catch (_) {
+      return null;
+    }
+  }
+
   async function resolveCoverArt(gameId, gameName) {
-    // 1. Try server endpoint first
+    // 1. Ask server (/api/cover checks local assets/ first, or downloads to assets/ if server has internet)
     try {
       const res = await fetch(`/api/cover?name=${encodeURIComponent(gameName)}`);
       if (res.ok) {
         const data = await res.json();
         if (data && data.url) {
           coverMemoryCache.set(gameId, data);
+          updateGameCoverState(gameId, data);
           applyCoverToCardDom(gameId, data);
+          // If server returned a remote URL because server couldn't download directly, try browser download -> assets/
+          if (!data.hasLocalAsset && !data.isCustom && /^https?:\/\//i.test(data.url)) {
+            await persistCoverToLocalAssets(gameId, gameName, data);
+          }
           return;
         }
       }
-    } catch (_) {
-      // Ignore and try browser CORS APIs
-    }
+    } catch (_) {}
 
     // 2. Browser-direct fallback via CheapShark (Steam AppID CORS API) + Wikipedia CORS API
     const cleaned = gameName
@@ -391,7 +454,7 @@
                   fallbackUrl: `https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/${best.steamAppID}/header.jpg`,
                   tinyUrl: best.thumb || null,
                   steamAppId: Number(best.steamAppID),
-                  source: 'steam-cs'
+                  source: 'steam'
                 }
               : {
                   url: best.thumb,
@@ -400,22 +463,21 @@
                 };
             if (cover.url) {
               coverMemoryCache.set(gameId, cover);
+              updateGameCoverState(gameId, cover);
               applyCoverToCardDom(gameId, cover);
-              persistCoverToServer(gameName, cover);
+              await persistCoverToLocalAssets(gameId, gameName, cover);
               return;
             }
           }
         }
       }
-    } catch (_) {
-      // Next fallback
-    }
+    } catch (_) {}
 
     // 3. Wikipedia PageImages CORS API
     try {
       const wikiUrl = `https://en.wikipedia.org/w/api.php?origin=*&action=query&format=json&prop=pageimages&generator=search&gsrsearch=${encodeURIComponent(
         cleaned + ' video game'
-      )}&gsrlimit=3&pithumbsize=400`;
+      )}&gsrlimit=3&pithumbsize=500`;
       const wikiRes = await fetch(wikiUrl);
       if (wikiRes.ok) {
         const data = await wikiRes.json();
@@ -429,28 +491,48 @@
                 source: 'wikipedia'
               };
               coverMemoryCache.set(gameId, cover);
+              updateGameCoverState(gameId, cover);
               applyCoverToCardDom(gameId, cover);
-              persistCoverToServer(gameName, cover);
+              await persistCoverToLocalAssets(gameId, gameName, cover);
               return;
             }
           }
         }
       }
-    } catch (_) {
-      // Keep stylized card fallback
+    } catch (_) {}
+  }
+
+  async function persistCoverToLocalAssets(gameId, gameName, cover) {
+    // Try fetching image bytes in the browser so even a sandboxed server can write to assets/
+    let dataUrl = await tryFetchUrlAsDataUrl(cover.url);
+    if (!dataUrl && cover.fallbackUrl) {
+      dataUrl = await tryFetchUrlAsDataUrl(cover.fallbackUrl);
+    }
+    try {
+      const res = await fetch('/api/cover-cache', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ name: gameName, cover, dataUrl })
+      });
+      if (res.ok) {
+        const result = await res.json();
+        if (result && result.cover && result.cover.url) {
+          coverMemoryCache.set(gameId, result.cover);
+          updateGameCoverState(gameId, result.cover);
+          applyCoverToCardDom(gameId, result.cover);
+        }
+      }
+    } catch (_) {}
+  }
+
+  function updateGameCoverState(gameId, cover) {
+    const game = findGameInState(gameId);
+    if (game) {
+      game.cover = cover;
     }
   }
 
-  function persistCoverToServer(gameName, cover) {
-    fetch('/api/cover-cache', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ name: gameName, cover })
-    }).catch(() => {});
-  }
-
   function applyCoverToCardDom(gameId, cover) {
-    if (!cover || !cover.url) return;
     const cards = document.querySelectorAll(`.game-card[data-game-id="${CSS.escape(gameId)}"]`);
     cards.forEach((card) => {
       attachCoverImage(card, cover, card.dataset.gameName || '');
@@ -458,8 +540,11 @@
   }
 
   function attachCoverImage(cardEl, cover, gameName) {
-    if (!cover || !cover.url) return;
     let img = cardEl.querySelector('.card-cover-img');
+    if (!cover || !cover.url) {
+      if (img) img.remove();
+      return;
+    }
     if (!img) {
       img = document.createElement('img');
       img.className = 'card-cover-img';
@@ -491,7 +576,7 @@
     card.dataset.tier = currentTierId;
     card.title = `${game.name}${
       game.platforms && game.platforms.length ? ` (${game.platforms.join(', ')})` : ''
-    }${game.steamHours ? ` • ${game.steamHours} hrs on Steam` : ''}`;
+    }${game.steamHours ? ` • ${game.steamHours} hrs on Steam` : ''} • Click to change cover art`;
 
     // Stylized gradient fallback art behind cover image
     const fallback = document.createElement('div');
@@ -510,10 +595,14 @@
     fallback.appendChild(fbTitle);
     card.appendChild(fallback);
 
-    // Cover image if cached, otherwise observe for lazy loading
+    // Cover image check: if already has local asset or custom cover, do NOT reload from APIs
     const cachedCover = coverMemoryCache.get(game.id) || game.cover;
     if (cachedCover && cachedCover.url) {
       attachCoverImage(card, cachedCover, game.name);
+      if (!isFinalizedCover(cachedCover)) {
+        // Has remote URL in covers.json but not yet downloaded to local assets/
+        cardObserver.observe(card);
+      }
     } else {
       cardObserver.observe(card);
     }
@@ -540,7 +629,7 @@
     }
     card.appendChild(topMeta);
 
-    // Quick-move tier buttons on hover
+    // Quick-move tier buttons + Change Cover button on hover
     const quickBar = document.createElement('div');
     quickBar.className = 'card-quick-actions';
     ['S', 'A', 'B', 'C', 'D'].forEach((tId) => {
@@ -569,6 +658,18 @@
       });
       quickBar.appendChild(unrankBtn);
     }
+
+    const editCoverBtn = document.createElement('button');
+    editCoverBtn.type = 'button';
+    editCoverBtn.className = 'quick-tier-btn qt-edit';
+    editCoverBtn.textContent = '🖼️';
+    editCoverBtn.title = 'Change Cover Art';
+    editCoverBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      openCoverModal(game);
+    });
+    quickBar.appendChild(editCoverBtn);
+
     card.appendChild(quickBar);
 
     // Bottom title overlay
@@ -579,6 +680,11 @@
     titleSpan.textContent = game.name;
     overlay.appendChild(titleSpan);
     card.appendChild(overlay);
+
+    // Click card to open Change Cover Art modal
+    card.addEventListener('click', () => {
+      openCoverModal(game);
+    });
 
     // Drag events on card
     card.addEventListener('dragstart', (e) => {
@@ -627,17 +733,473 @@
     return card;
   }
 
+  // ==========================================
+  // Change Cover Art Modal Logic
+  // ==========================================
+  function openCoverModal(game) {
+    editingGame = game;
+    selectedNewCover = null;
+    customCoverUrlInput.value = '';
+    customCoverFileInput.value = '';
+    coverSearchInput.value = game.name;
+    coverCandidatesGrid.innerHTML = '';
+    if (clipboardPasteZone) {
+      clipboardPasteZone.classList.remove('pasted-active');
+    }
+    if (pasteZoneLabel) {
+      pasteZoneLabel.innerHTML =
+        'Press <kbd>⌘V</kbd> / <kbd>Ctrl+V</kbd> anywhere in this modal to paste a copied image';
+    }
+
+    const currentCover = coverMemoryCache.get(game.id) || game.cover;
+    coverModalTitle.textContent = `Change Cover Art — ${game.name}`;
+
+    if (currentCover && currentCover.hasLocalAsset && currentCover.localFile) {
+      coverAssetStatus.textContent = `Local asset stored at ${currentCover.localFile} (saving a new cover will remove this local asset)`;
+    } else if (currentCover && currentCover.isCustom) {
+      coverAssetStatus.textContent = `Using custom saved cover (local asset removed)`;
+    } else if (currentCover && currentCover.url) {
+      coverAssetStatus.textContent = `Current source: ${currentCover.source || 'API'}`;
+    } else {
+      coverAssetStatus.textContent = `No cover image currently saved`;
+    }
+
+    setModalPreviewImage(currentCover ? currentCover.url : null);
+    coverModal.classList.remove('hidden');
+
+    // Automatically search candidates for convenience
+    searchCoverOptionsForModal(game.name);
+  }
+
+  function closeCoverModal() {
+    coverModal.classList.add('hidden');
+    editingGame = null;
+    selectedNewCover = null;
+  }
+
+  function setModalPreviewImage(src) {
+    if (src) {
+      coverPreviewImg.src = src;
+      coverPreviewImg.classList.remove('hidden');
+      coverPreviewEmpty.classList.add('hidden');
+    } else {
+      coverPreviewImg.removeAttribute('src');
+      coverPreviewImg.classList.add('hidden');
+      coverPreviewEmpty.classList.remove('hidden');
+    }
+  }
+
+  async function searchCoverOptionsForModal(query) {
+    if (!query.trim()) return;
+    coverCandidatesGrid.innerHTML = '<div class="cover-preview-empty">Searching covers...</div>';
+    const candidates = [];
+    const seen = new Set();
+
+    function addCandidate(c) {
+      if (!c || !c.url || seen.has(c.url)) return;
+      seen.add(c.url);
+      candidates.push(c);
+    }
+
+    // 1. Query server /api/cover/search
+    try {
+      const sRes = await fetch(`/api/cover/search?q=${encodeURIComponent(query)}`);
+      if (sRes.ok) {
+        const sData = await sRes.json();
+        if (sData && Array.isArray(sData.candidates)) {
+          sData.candidates.forEach(addCandidate);
+        }
+      }
+    } catch (_) {}
+
+    // 2. Also query CheapShark + Wikipedia from browser in case server is sandboxed
+    try {
+      const csRes = await fetch(`https://www.cheapshark.com/api/1.0/games?title=${encodeURIComponent(query)}&limit=6`);
+      if (csRes.ok) {
+        const csItems = await csRes.json();
+        if (Array.isArray(csItems)) {
+          csItems.forEach((it) => {
+            if (it.steamAppID) {
+              addCandidate({
+                title: `${it.external} (Box)`,
+                url: `https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/${it.steamAppID}/library_600x900.jpg`,
+                fallbackUrl: `https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/${it.steamAppID}/header.jpg`,
+                source: 'steam'
+              });
+              addCandidate({
+                title: `${it.external} (Header)`,
+                url: `https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/${it.steamAppID}/header.jpg`,
+                fallbackUrl: it.thumb || null,
+                source: 'steam-header'
+              });
+            } else if (it.thumb) {
+              addCandidate({
+                title: it.external,
+                url: it.thumb,
+                source: 'cheapshark'
+              });
+            }
+          });
+        }
+      }
+    } catch (_) {}
+
+    try {
+      const wikiRes = await fetch(
+        `https://en.wikipedia.org/w/api.php?origin=*&action=query&format=json&prop=pageimages&generator=search&gsrsearch=${encodeURIComponent(
+          query + ' video game'
+        )}&gsrlimit=6&pithumbsize=500`
+      );
+      if (wikiRes.ok) {
+        const wData = await wikiRes.json();
+        if (wData && wData.query && wData.query.pages) {
+          Object.values(wData.query.pages).forEach((page) => {
+            if (page.thumbnail && page.thumbnail.source) {
+              addCandidate({
+                title: `${page.title} (Wiki)`,
+                url: page.thumbnail.source,
+                source: 'wikipedia'
+              });
+            }
+          });
+        }
+      }
+    } catch (_) {}
+
+    renderModalCandidates(candidates);
+  }
+
+  function renderModalCandidates(candidates) {
+    coverCandidatesGrid.innerHTML = '';
+    if (candidates.length === 0) {
+      coverCandidatesGrid.innerHTML =
+        '<div class="cover-preview-empty">No search results found. Paste a custom image URL or upload a file above.</div>';
+      return;
+    }
+
+    candidates.forEach((cand) => {
+      const item = document.createElement('div');
+      item.className = 'candidate-item';
+      item.title = cand.title || cand.url;
+
+      const img = document.createElement('img');
+      img.src = cand.url;
+      img.alt = cand.title || 'Candidate cover';
+      img.loading = 'lazy';
+      img.onerror = () => {
+        if (cand.fallbackUrl && img.src !== cand.fallbackUrl) {
+          img.src = cand.fallbackUrl;
+        } else {
+          item.remove();
+        }
+      };
+
+      const cap = document.createElement('div');
+      cap.className = 'candidate-caption';
+      cap.textContent = cand.title || cand.source || 'Cover';
+
+      item.appendChild(img);
+      item.appendChild(cap);
+
+      item.addEventListener('click', () => {
+        coverCandidatesGrid.querySelectorAll('.candidate-item').forEach((el) => el.classList.remove('selected'));
+        item.classList.add('selected');
+        const chosenUrl = img.src || cand.url;
+        customCoverUrlInput.value = chosenUrl;
+        selectedNewCover = {
+          imageUrl: chosenUrl,
+          fallbackUrl: cand.fallbackUrl || null,
+          dataUrl: null,
+          source: 'custom-selected'
+        };
+        setModalPreviewImage(chosenUrl);
+      });
+
+      coverCandidatesGrid.appendChild(item);
+    });
+  }
+
+  previewUrlBtn.addEventListener('click', () => {
+    const url = customCoverUrlInput.value.trim();
+    if (!url) return;
+    selectedNewCover = {
+      imageUrl: url,
+      fallbackUrl: null,
+      dataUrl: null,
+      source: 'custom-url'
+    };
+    setModalPreviewImage(url);
+  });
+
+  customCoverUrlInput.addEventListener('change', () => {
+    const url = customCoverUrlInput.value.trim();
+    if (url) {
+      selectedNewCover = {
+        imageUrl: url,
+        fallbackUrl: null,
+        dataUrl: null,
+        source: 'custom-url'
+      };
+      setModalPreviewImage(url);
+    }
+  });
+
+  function applyPastedImageBlob(blob) {
+    if (!blob) return;
+    const reader = new FileReader();
+    reader.onload = () => {
+      if (typeof reader.result === 'string') {
+        selectedNewCover = {
+          imageUrl: null,
+          fallbackUrl: null,
+          dataUrl: reader.result,
+          source: 'clipboard-paste'
+        };
+        setModalPreviewImage(reader.result);
+        if (clipboardPasteZone) {
+          clipboardPasteZone.classList.add('pasted-active');
+        }
+        if (pasteZoneLabel) {
+          pasteZoneLabel.textContent = '✓ Image pasted from clipboard — click Save Cover Instead';
+        }
+        showToast('Pasted image from clipboard into preview!');
+      }
+    };
+    reader.readAsDataURL(blob);
+  }
+
+  function applyPastedImageUrl(url) {
+    if (!url) return;
+    customCoverUrlInput.value = url;
+    selectedNewCover = {
+      imageUrl: url,
+      fallbackUrl: null,
+      dataUrl: null,
+      source: 'clipboard-url'
+    };
+    setModalPreviewImage(url);
+    if (clipboardPasteZone) {
+      clipboardPasteZone.classList.add('pasted-active');
+    }
+    if (pasteZoneLabel) {
+      pasteZoneLabel.textContent = '✓ Image URL pasted from clipboard — click Save Cover Instead';
+    }
+    showToast('Pasted image URL from clipboard into preview!');
+  }
+
+  // Handle Ctrl+V / Cmd+V paste anywhere while the Change Cover Art modal is open
+  window.addEventListener('paste', (e) => {
+    if (!editingGame || coverModal.classList.contains('hidden')) return;
+    const cd = e.clipboardData;
+    if (!cd) return;
+
+    // 1. Check for binary image data in clipboardData.items or clipboardData.files
+    if (cd.items) {
+      for (let i = 0; i < cd.items.length; i++) {
+        const item = cd.items[i];
+        if (item.type && item.type.startsWith('image/')) {
+          const blob = item.getAsFile();
+          if (blob) {
+            e.preventDefault();
+            applyPastedImageBlob(blob);
+            return;
+          }
+        }
+      }
+    }
+
+    if (cd.files && cd.files.length > 0) {
+      for (let i = 0; i < cd.files.length; i++) {
+        const file = cd.files[i];
+        if (file.type && file.type.startsWith('image/')) {
+          e.preventDefault();
+          applyPastedImageBlob(file);
+          return;
+        }
+      }
+    }
+
+    // 2. If user is not typing in the search input, check if copied HTML contains an <img src="..."> or plain text is an image URL
+    if (document.activeElement === coverSearchInput) return;
+
+    const htmlData = cd.getData('text/html');
+    if (htmlData) {
+      const imgMatch = htmlData.match(/<img[^>]+src=["']([^"']+)["']/i);
+      if (imgMatch && imgMatch[1]) {
+        e.preventDefault();
+        applyPastedImageUrl(imgMatch[1]);
+        return;
+      }
+    }
+
+    const textData = (cd.getData('text/plain') || '').trim();
+    if (/^(https?:\/\/\S+|data:image\/[a-zA-Z0-9+.-]+;base64,\S+)$/i.test(textData)) {
+      if (document.activeElement !== customCoverUrlInput) {
+        e.preventDefault();
+      }
+      applyPastedImageUrl(textData);
+    }
+  });
+
+  if (pasteClipboardBtn) {
+    pasteClipboardBtn.addEventListener('click', async () => {
+      try {
+        if (navigator.clipboard && navigator.clipboard.read) {
+          const items = await navigator.clipboard.read();
+          for (const item of items) {
+            const imgType = item.types.find((t) => t.startsWith('image/'));
+            if (imgType) {
+              const blob = await item.getType(imgType);
+              applyPastedImageBlob(blob);
+              return;
+            }
+          }
+        }
+        if (navigator.clipboard && navigator.clipboard.readText) {
+          const text = (await navigator.clipboard.readText()).trim();
+          if (/^(https?:\/\/\S+|data:image\/)/i.test(text)) {
+            applyPastedImageUrl(text);
+            return;
+          }
+        }
+        showToast('No image found on clipboard. Copy an image first or press ⌘V / Ctrl+V.', true);
+      } catch (_) {
+        if (clipboardPasteZone) clipboardPasteZone.focus();
+        showToast('Press ⌘V (Mac) or Ctrl+V (Windows/Linux) to paste your copied image.');
+      }
+    });
+  }
+
+  customCoverFileInput.addEventListener('change', (e) => {
+    const file = e.target.files && e.target.files[0];
+    if (!file) return;
+    const reader = new FileReader();
+    reader.onload = () => {
+      if (typeof reader.result === 'string') {
+        selectedNewCover = {
+          imageUrl: null,
+          fallbackUrl: null,
+          dataUrl: reader.result,
+          source: 'custom-upload'
+        };
+        setModalPreviewImage(reader.result);
+      }
+    };
+    reader.readAsDataURL(file);
+  });
+
+  coverSearchBtn.addEventListener('click', () => {
+    searchCoverOptionsForModal(coverSearchInput.value);
+  });
+
+  coverSearchInput.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') {
+      e.preventDefault();
+      searchCoverOptionsForModal(coverSearchInput.value);
+    }
+  });
+
+  // Save new cover instead (removes local asset in assets/)
+  saveCoverBtn.addEventListener('click', async () => {
+    if (!editingGame) return;
+
+    const urlTyped = customCoverUrlInput.value.trim();
+    if (!selectedNewCover && urlTyped) {
+      selectedNewCover = {
+        imageUrl: urlTyped,
+        fallbackUrl: null,
+        dataUrl: null,
+        source: 'custom-url'
+      };
+    }
+
+    if (!selectedNewCover || (!selectedNewCover.imageUrl && !selectedNewCover.dataUrl)) {
+      showToast('Please select a cover, paste a URL, or upload an image first.', true);
+      return;
+    }
+
+    saveCoverBtn.disabled = true;
+    saveCoverBtn.textContent = 'Saving...';
+
+    try {
+      const res = await fetch('/api/cover/change', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          name: editingGame.name,
+          imageUrl: selectedNewCover.imageUrl,
+          fallbackUrl: selectedNewCover.fallbackUrl,
+          dataUrl: selectedNewCover.dataUrl,
+          source: selectedNewCover.source
+        })
+      });
+
+      if (!res.ok) throw new Error('Failed to save cover');
+      const result = await res.json();
+
+      if (result.cover) {
+        coverMemoryCache.set(editingGame.id, result.cover);
+        updateGameCoverState(editingGame.id, result.cover);
+        applyCoverToCardDom(editingGame.id, result.cover);
+      }
+
+      const removedMsg =
+        result.removedFiles && result.removedFiles.length > 0
+          ? ` (removed local asset ${result.removedFiles.join(', ')})`
+          : '';
+      showToast(`Saved new cover for ${editingGame.name}${removedMsg}`);
+      closeCoverModal();
+    } catch (err) {
+      showToast('Error saving cover: ' + err.message, true);
+    } finally {
+      saveCoverBtn.disabled = false;
+      saveCoverBtn.textContent = 'Save Cover Instead';
+    }
+  });
+
+  // Reset custom override & re-download local asset
+  resetCoverBtn.addEventListener('click', async () => {
+    if (!editingGame) return;
+    const targetGame = editingGame;
+    resetCoverBtn.disabled = true;
+    try {
+      await fetch('/api/cover/change', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ name: targetGame.name })
+      });
+      coverMemoryCache.delete(targetGame.id);
+      pendingCoverFetches.delete(targetGame.id);
+      updateGameCoverState(targetGame.id, null);
+      applyCoverToCardDom(targetGame.id, null);
+      closeCoverModal();
+      showToast(`Reset cover for ${targetGame.name}; downloading local asset...`);
+      enqueueCoverLookup(targetGame.id, targetGame.name, true);
+    } catch (err) {
+      showToast('Failed to reset cover: ' + err.message, true);
+    } finally {
+      resetCoverBtn.disabled = false;
+    }
+  });
+
+  closeCoverModalBtn.addEventListener('click', closeCoverModal);
+  cancelCoverModalBtn.addEventListener('click', closeCoverModal);
+  coverModal.addEventListener('click', (e) => {
+    if (e.target === coverModal) closeCoverModal();
+  });
+
+  // ==========================================
+  // Drag & Drop and Board Rendering
+  // ==========================================
   function clearDragIndicators() {
     document
       .querySelectorAll('.drag-over, .drag-target-before, .drag-target-after')
       .forEach((el) => el.classList.remove('drag-over', 'drag-target-before', 'drag-target-after'));
   }
 
-  // Move game between tiers or reorder within a tier
   function moveGame(gameId, fromTierId, toTierId, targetGameId = null, insertBefore = true) {
     let movedGame = null;
 
-    // Find and remove from current collection
     for (const tier of appState.tiers) {
       const idx = tier.items.findIndex((g) => g.id === gameId);
       if (idx !== -1) {
@@ -685,7 +1247,6 @@
       row.className = 'tier-row';
       row.dataset.tier = tier.id;
 
-      // Left tier label column
       const labelCol = document.createElement('div');
       labelCol.className = 'tier-label-col';
 
@@ -711,7 +1272,6 @@
       labelCol.appendChild(desc);
       labelCol.appendChild(countPill);
 
-      // Right dropzone for cards
       const dropzone = document.createElement('div');
       dropzone.className = 'tier-items-dropzone';
       dropzone.dataset.tier = tier.id;
@@ -727,7 +1287,6 @@
         }
       }
 
-      // Row drop handlers
       row.addEventListener('dragover', (e) => {
         if (!draggedGameId) return;
         e.preventDefault();
@@ -812,7 +1371,6 @@
     renderUnrankedPool();
   }
 
-  // Save handler -> updates tier_list.md
   async function saveTierList() {
     saveBtn.disabled = true;
     saveBtnText.textContent = 'Saving...';
@@ -842,7 +1400,6 @@
       updateDirtyStatus();
       showToast('Saved changes to tier_list.md!');
     } catch (err) {
-      // Fallback: download updated tier_list.md if server isn't running
       const md = generateTierListMarkdown();
       const blob = new Blob([md], { type: 'text/markdown;charset=utf-8' });
       const url = URL.createObjectURL(blob);
@@ -858,7 +1415,6 @@
     }
   }
 
-  // Unranked dropzone handlers
   unrankedDropzoneEl.addEventListener('dragover', (e) => {
     if (!draggedGameId) return;
     e.preventDefault();
@@ -879,7 +1435,6 @@
     moveGame(sourceId, draggedSourceTier, 'UNRANKED');
   });
 
-  // Auto-scroll viewport when dragging near top or bottom edges
   window.addEventListener('dragover', (e) => {
     if (!draggedGameId) return;
     const edgeThreshold = 90;
@@ -890,7 +1445,6 @@
     }
   });
 
-  // Controls & Event Listeners
   searchInput.addEventListener('input', (e) => {
     searchQuery = e.target.value;
     clearSearchBtn.classList.toggle('hidden', !searchQuery);
@@ -951,6 +1505,5 @@
     }
   });
 
-  // Initialize
   loadInitialState();
 })();
