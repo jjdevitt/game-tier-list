@@ -360,6 +360,67 @@ function parseCSVLine(line) {
   return result;
 }
 
+const CANONICAL_TITLE_MAP = {
+  'batman: arkham asylum goty edition': 'Batman: Arkham Asylum',
+  'bioshock remastered': 'BioShock',
+  'bioshock 2 remastered': 'BioShock 2',
+  'borderlands goty': 'Borderlands',
+  'borderlands goty enhanced': 'Borderlands',
+  'call of duty: modern warfare 2 (2009) - multiplayer': 'Call of Duty: Modern Warfare 2 (2009)',
+  'control ultimate edition': 'Control',
+  'dark messiah of might & magic multi-player': 'Dark Messiah of Might & Magic',
+  'dark messiah of might & magic single player': 'Dark Messiah of Might & Magic',
+  'darksiders warmastered edition': 'Darksiders',
+  'darksiders ii deathinitive edition': 'Darksiders II',
+  'diablo iii: eternal collection': 'Diablo III',
+  'diablo iii: reaper of souls - ultimate evil edition': 'Diablo III',
+  "don't starve together": "Don't Starve",
+  'dragon age: origins - ultimate edition': 'Dragon Age: Origins',
+  'half-life 2: deathmatch': 'Half-Life 2',
+  'half-life deathmatch: source': 'Half-Life 2',
+  'hitman: world of assassination (cloud version)': 'HITMAN 3',
+  'killing floor mod: defence alliance 2': 'Killing Floor',
+  'quake iii: team arena': 'Quake III Arena',
+  'red faction: guerrilla steam edition': 'Red Faction: Guerrilla',
+  'red faction guerrilla re-mars-tered': 'Red Faction: Guerrilla',
+  's.t.a.l.k.e.r.: shadow of chornobyl - enhanced edition': 'S.T.A.L.K.E.R.: Shadow of Chernobyl',
+  'serious sam classic: the first encounter': 'Serious Sam: The First Encounter',
+  'serious sam hd: the first encounter': 'Serious Sam: The First Encounter',
+  'serious sam classics: revolution': 'Serious Sam: The First Encounter',
+  'serious sam fusion 2017 (beta)': 'Serious Sam: The First Encounter',
+  'serious sam classic: the second encounter': 'Serious Sam: The Second Encounter',
+  'serious sam hd: the second encounter': 'Serious Sam: The Second Encounter',
+  "sid meier's civilization iv: beyond the sword": "Sid Meier's Civilization IV",
+  "sid meier's civilization iv: colonization": "Sid Meier's Civilization IV",
+  "sid meier's civilization iv: warlords": "Sid Meier's Civilization IV",
+  'warhammer 40,000: dawn of war ii - anniversary edition': 'Warhammer 40,000: Dawn of War II',
+  'warhammer 40,000: dawn of war ii - chaos rising': 'Warhammer 40,000: Dawn of War II',
+  'warhammer 40,000: dawn of war ii - retribution': 'Warhammer 40,000: Dawn of War II',
+  'aion collectors edition': 'Aion',
+  'command & conquer remastered collection': 'Command & Conquer',
+  'dead or alive 5 last round': 'DEAD OR ALIVE 5',
+  'diablo ii: resurrected': 'Diablo II',
+  'dying light: the following - enhanced edition': 'Dying Light',
+  'mario kart 8 deluxe': 'Mario Kart 8',
+  'new super mario bros. u deluxe': 'New Super Mario Bros. U',
+  'ori and the blind forest: definitive edition': 'Ori and the Blind Forest',
+  'plants vs. zombies: game of the year': 'Plants vs. Zombies',
+  'poker night at the inventory (2010 original version)': 'Poker Night at the Inventory',
+  'railroad tycoon 2: platinum': 'Railroad Tycoon 2',
+  'rocksmith 2014 edition - remastered': 'Rocksmith 2014',
+  "sid meier's civilization iii: complete": "Sid Meier's Civilization III",
+  'star wars: the force unleashed ultimate sith edition': 'STAR WARS: The Force Unleashed',
+  "super mario 3d world + bowser's fury": 'Super Mario 3D World',
+  'the witcher 2: assassins of kings enhanced edition': 'The Witcher 2: Assassins of Kings',
+  'the witcher 3: wild hunt - complete edition': 'The Witcher 3: Wild Hunt',
+  'unreal tournament 3: black edition': 'Unreal Tournament 3'
+};
+
+function getCanonicalTitle(rawName) {
+  const norm = normalizeName(rawName);
+  return CANONICAL_TITLE_MAP[norm] || String(rawName || '').trim();
+}
+
 function parseLibraryCSV() {
   if (!fs.existsSync(LIBRARY_CSV_PATH)) {
     return [];
@@ -368,16 +429,14 @@ function parseLibraryCSV() {
   const lines = content.split(/\r?\n/).filter((l) => l.trim().length > 0);
   if (lines.length <= 1) return [];
 
-  const games = [];
-  const seen = new Set();
+  const mergedMap = new Map();
 
   for (let i = 1; i < lines.length; i++) {
     const cols = parseCSVLine(lines[i]);
-    const name = cols[0];
-    if (!name) continue;
+    const rawName = cols[0];
+    if (!rawName) continue;
+    const name = getCanonicalTitle(rawName);
     const norm = normalizeName(name);
-    if (seen.has(norm)) continue;
-    seen.add(norm);
 
     const platforms = [];
     if (cols[1] && cols[1].toUpperCase() === 'X') platforms.push('Steam');
@@ -388,10 +447,31 @@ function parseLibraryCSV() {
     const hoursRaw = cols[5] ? parseFloat(cols[5]) : null;
     const steamHours = !isNaN(hoursRaw) && hoursRaw !== null ? hoursRaw : null;
 
+    if (!mergedMap.has(norm)) {
+      mergedMap.set(norm, {
+        name,
+        platforms: new Set(platforms),
+        steamHours
+      });
+    } else {
+      const existing = mergedMap.get(norm);
+      platforms.forEach((p) => existing.platforms.add(p));
+      if (steamHours !== null) {
+        existing.steamHours =
+          existing.steamHours !== null
+            ? Number((existing.steamHours + steamHours).toFixed(1))
+            : steamHours;
+      }
+    }
+  }
+
+  const games = [];
+  for (const entry of mergedMap.values()) {
+    const platList = entry.platforms.has('Steam') ? ['Steam'] : Array.from(entry.platforms);
     games.push({
-      name,
-      platforms,
-      steamHours
+      name: entry.name,
+      platforms: platList,
+      steamHours: entry.steamHours
     });
   }
   return games;
@@ -433,6 +513,7 @@ function parseTierListMD(libraryGames) {
 
   let currentTier = null;
   let foundDetailedBullets = false;
+  const seenGlobal = new Set();
 
   for (const line of lines) {
     const headerMatch = line.match(/^##\s+\*\*([SABCD])-Tier/i) || line.match(/^##\s+([SABCD])-Tier/i);
@@ -446,8 +527,10 @@ function parseTierListMD(libraryGames) {
     if (currentTier && tierMap[currentTier]) {
       const bulletMatch = line.match(/^\*\s+\*\*(.+?)\*\*\s*$/) || line.match(/^[-*]\s+(.+?)\s*$/);
       if (bulletMatch) {
-        const rawName = unescapeMarkdown(bulletMatch[1].replace(/^\*\*|\*\*$/g, ''));
-        if (!tierMap[currentTier].some((n) => normalizeName(n) === normalizeName(rawName))) {
+        const rawName = getCanonicalTitle(unescapeMarkdown(bulletMatch[1].replace(/^\*\*|\*\*$/g, '')));
+        const norm = normalizeName(rawName);
+        if (!seenGlobal.has(norm)) {
+          seenGlobal.add(norm);
           tierMap[currentTier].push(rawName);
           foundDetailedBullets = true;
         }
