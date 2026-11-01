@@ -1,6 +1,6 @@
 {
   "axiom verge": {
-    "url": "/assets/axiom-verge.jpg?v=1793469978211",
+    "url": "assets/axiom-verge.jpg?v=1793469978211",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/332200/header.jpg",
     "steamAppId": 332200,
     "source": "steam",
@@ -11,7 +11,7 @@
     "updatedAt": 1793469978211
   },
   "axiom verge 2": {
-    "url": "/assets/axiom-verge-2.jpg?v=1793469978221",
+    "url": "assets/axiom-verge-2.jpg?v=1793469978221",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/946030/header.jpg",
     "steamAppId": 946030,
     "source": "steam",
@@ -22,7 +22,7 @@
     "updatedAt": 1793469978221
   },
   "baldur's gate 3": {
-    "url": "/assets/baldur-s-gate-3.jpg?v=1793469978203",
+    "url": "assets/baldur-s-gate-3.jpg?v=1793469978203",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/header.jpg",
     "steamAppId": 1086940,
     "source": "steam",
@@ -33,7 +33,7 @@
     "updatedAt": 1793469978203
   },
   "bloodstained: ritual of the night": {
-    "url": "/assets/bloodstained-ritual-of-the-night.jpg?v=1793469978253",
+    "url": "assets/bloodstained-ritual-of-the-night.jpg?v=1793469978253",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/692850/header.jpg",
     "steamAppId": 692850,
     "source": "steam",
@@ -44,7 +44,7 @@
     "updatedAt": 1793469978254
   },
   "celeste": {
-    "url": "/assets/celeste.jpg?v=1793469978264",
+    "url": "assets/celeste.jpg?v=1793469978264",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/504230/header.jpg",
     "steamAppId": 504230,
     "source": "steam",
@@ -55,7 +55,7 @@
     "updatedAt": 1793469978264
   },
   "control": {
-    "url": "/assets/control.jpg?v=1793469978266",
+    "url": "assets/control.jpg?v=1793469978266",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/870780/header.jpg",
     "steamAppId": 870780,
     "source": "steam",
@@ -66,7 +66,7 @@
     "updatedAt": 1793469978266
   },
   "darkest dungeon": {
-    "url": "/assets/darkest-dungeon.jpg?v=1793469978303",
+    "url": "assets/darkest-dungeon.jpg?v=1793469978303",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/262060/header.jpg",
     "steamAppId": 262060,
     "source": "steam",
@@ -77,7 +77,7 @@
     "updatedAt": 1793469978303
   },
   "factorio": {
-    "url": "/assets/factorio.jpg?v=1793469978318",
+    "url": "assets/factorio.jpg?v=1793469978318",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427520/header.jpg",
     "steamAppId": 427520,
     "source": "steam",
@@ -88,7 +88,7 @@
     "updatedAt": 1793469978318
   },
   "hades ii": {
-    "url": "/assets/hades-ii.jpg?v=1793469978352",
+    "url": "assets/hades-ii.jpg?v=1793469978352",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145350/header.jpg",
     "steamAppId": 1145350,
     "source": "steam",
@@ -99,7 +99,7 @@
     "updatedAt": 1793469978352
   },
   "minishoot' adventures": {
-    "url": "/assets/minishoot-adventures.jpg?v=1793469978368",
+    "url": "assets/minishoot-adventures.jpg?v=1793469978368",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1634860/header.jpg",
     "steamAppId": 1634860,
     "source": "steam",
@@ -110,7 +110,7 @@
     "updatedAt": 1793469978368
   },
   "oxygen not included": {
-    "url": "/assets/oxygen-not-included.jpg?v=1793469978402",
+    "url": "assets/oxygen-not-included.jpg?v=1793469978402",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/457140/header.jpg",
     "steamAppId": 457140,
     "source": "steam",
@@ -121,7 +121,7 @@
     "updatedAt": 1793469978402
   },
   "portal 2": {
-    "url": "/assets/portal-2.jpg?v=1793469978416",
+    "url": "assets/portal-2.jpg?v=1793469978416",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/620/header.jpg",
     "steamAppId": 620,
     "source": "steam",
@@ -132,7 +132,7 @@
     "updatedAt": 1793469978416
   },
   "tactical breach wizards": {
-    "url": "/assets/tactical-breach-wizards.jpg?v=1793469978444",
+    "url": "assets/tactical-breach-wizards.jpg?v=1793469978444",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1043810/header.jpg",
     "steamAppId": 1043810,
     "source": "steam",
@@ -143,7 +143,7 @@
     "updatedAt": 1793469978444
   },
   "tunic": {
-    "url": "/assets/tunic.jpg?v=1793469978477",
+    "url": "assets/tunic.jpg?v=1793469978477",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553420/header.jpg",
     "steamAppId": 553420,
     "source": "steam",
@@ -154,7 +154,7 @@
     "updatedAt": 1793469978477
   },
   "vampire survivors": {
-    "url": "/assets/vampire-survivors.jpg?v=1793469978496",
+    "url": "assets/vampire-survivors.jpg?v=1793469978496",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1794680/header.jpg",
     "steamAppId": 1794680,
     "source": "steam",
@@ -165,7 +165,7 @@
     "updatedAt": 1793469978497
   },
   "v rising": {
-    "url": "/assets/v-rising.jpg?v=1793469978530",
+    "url": "assets/v-rising.jpg?v=1793469978530",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1604030/header.jpg",
     "steamAppId": 1604030,
     "source": "steam",
@@ -176,7 +176,7 @@
     "updatedAt": 1793469978530
   },
   "cook, serve, delicious! 2!!": {
-    "url": "/assets/cook-serve-delicious-2.jpg?v=1793469978551",
+    "url": "assets/cook-serve-delicious-2.jpg?v=1793469978551",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/386620/header.jpg",
     "steamAppId": 386620,
     "source": "steam",
@@ -187,7 +187,7 @@
     "updatedAt": 1793469978551
   },
   "crypt of the necrodancer": {
-    "url": "/assets/crypt-of-the-necrodancer.jpg?v=1793469978568",
+    "url": "assets/crypt-of-the-necrodancer.jpg?v=1793469978568",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/247080/header.jpg",
     "steamAppId": 247080,
     "source": "steam",
@@ -198,7 +198,7 @@
     "updatedAt": 1793469978568
   },
   "cuphead": {
-    "url": "/assets/cuphead.jpg?v=1793469978601",
+    "url": "assets/cuphead.jpg?v=1793469978601",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/268910/header.jpg",
     "steamAppId": 268910,
     "source": "steam",
@@ -209,7 +209,7 @@
     "updatedAt": 1793469978601
   },
   "left 4 dead": {
-    "url": "/assets/left-4-dead.jpg?v=1793469978631",
+    "url": "assets/left-4-dead.jpg?v=1793469978631",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/500/header.jpg",
     "steamAppId": 500,
     "source": "steam",
@@ -220,7 +220,7 @@
     "updatedAt": 1793469978631
   },
   "left 4 dead 2": {
-    "url": "/assets/left-4-dead-2.jpg?v=1793469978663",
+    "url": "assets/left-4-dead-2.jpg?v=1793469978663",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/550/header.jpg",
     "steamAppId": 550,
     "source": "steam",
@@ -231,7 +231,7 @@
     "updatedAt": 1793469978663
   },
   "path of exile": {
-    "url": "/assets/path-of-exile.jpg?v=1793469978654",
+    "url": "assets/path-of-exile.jpg?v=1793469978654",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/238960/header.jpg",
     "steamAppId": 238960,
     "source": "steam",
@@ -242,7 +242,7 @@
     "updatedAt": 1793469978654
   },
   "path of exile 2": {
-    "url": "/assets/path-of-exile-2.jpg?v=1793469978721",
+    "url": "assets/path-of-exile-2.jpg?v=1793469978721",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2694490/header.jpg",
     "steamAppId": 2694490,
     "source": "steam",
@@ -253,7 +253,7 @@
     "updatedAt": 1793469978721
   },
   "curse of the dead gods": {
-    "url": "/assets/curse-of-the-dead-gods.jpg?v=1793469978713",
+    "url": "assets/curse-of-the-dead-gods.jpg?v=1793469978713",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1123770/header.jpg",
     "steamAppId": 1123770,
     "source": "steam",
@@ -264,7 +264,7 @@
     "updatedAt": 1793469978713
   },
   "dave the diver": {
-    "url": "/assets/dave-the-diver.jpg?v=1793469978703",
+    "url": "assets/dave-the-diver.jpg?v=1793469978703",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1868140/header.jpg",
     "steamAppId": 1868140,
     "source": "steam",
@@ -275,7 +275,7 @@
     "updatedAt": 1793469978704
   },
   "dead cells": {
-    "url": "/assets/dead-cells.jpg?v=1793469978749",
+    "url": "assets/dead-cells.jpg?v=1793469978749",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/588650/header.jpg",
     "steamAppId": 588650,
     "source": "steam",
@@ -286,7 +286,7 @@
     "updatedAt": 1793469978749
   },
   "death's door": {
-    "url": "/assets/death-s-door.jpg?v=1793470060994",
+    "url": "assets/death-s-door.jpg?v=1793470060994",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/894020/header.jpg",
     "steamAppId": 894020,
     "source": "steam",
@@ -297,7 +297,7 @@
     "updatedAt": 1793470060994
   },
   "conduct together!": {
-    "url": "/assets/conduct-together.jpg?v=1793470060947",
+    "url": "assets/conduct-together.jpg?v=1793470060947",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/523650/header.jpg",
     "steamAppId": 523650,
     "source": "steam",
@@ -308,7 +308,7 @@
     "updatedAt": 1793470060947
   },
   "big brain academy: brain vs. brain": {
-    "url": "/assets/big-brain-academy-brain-vs-brain.png?v=1793470060683",
+    "url": "assets/big-brain-academy-brain-vs-brain.png?v=1793470060683",
     "fallbackUrl": null,
     "source": "wikipedia",
     "localFile": "assets/big-brain-academy-brain-vs-brain.png",
@@ -318,7 +318,7 @@
     "updatedAt": 1793470060683
   },
   "a plague tale: innocence": {
-    "url": "/assets/a-plague-tale-innocence.jpg?v=1793469978771",
+    "url": "assets/a-plague-tale-innocence.jpg?v=1793469978771",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/752590/header.jpg",
     "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/752590/capsule_231x87.jpg?t=1784712345",
     "steamAppId": 752590,
@@ -330,7 +330,7 @@
     "updatedAt": 1793469978771
   },
   "aimlabs": {
-    "url": "/assets/aimlabs.png?v=1793470060684",
+    "url": "assets/aimlabs.png?v=1793470060684",
     "fallbackUrl": null,
     "source": "wikipedia",
     "localFile": "assets/aimlabs.png",
@@ -340,7 +340,7 @@
     "updatedAt": 1793470060684
   },
   "alpha protocol": {
-    "url": "/assets/alpha-protocol.jpg?v=1793470061179",
+    "url": "assets/alpha-protocol.jpg?v=1793470061179",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/34010/header.jpg",
     "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/34010/capsule_231x87.jpg?t=1769707772",
     "steamAppId": 34010,
@@ -352,7 +352,7 @@
     "updatedAt": 1793470061179
   },
   "animal crossing: new horizons": {
-    "url": "/assets/animal-crossing-new-horizons.jpg?v=1793469979003",
+    "url": "assets/animal-crossing-new-horizons.jpg?v=1793469979003",
     "fallbackUrl": null,
     "source": "cheapshark",
     "localFile": "assets/animal-crossing-new-horizons.jpg",
@@ -362,7 +362,7 @@
     "updatedAt": 1793469979003
   },
   "assassin's creed": {
-    "url": "/assets/assassin-s-creed.jpg?v=1793470060730",
+    "url": "assets/assassin-s-creed.jpg?v=1793470060730",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/33230/header.jpg",
     "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/33230/capsule_231x87.jpg?t=1786611094",
     "steamAppId": 33230,
@@ -374,7 +374,7 @@
     "updatedAt": 1793470060731
   },
   "assassin's creed ii": {
-    "url": "/assets/assassin-s-creed-ii.jpg?v=1793470060745",
+    "url": "assets/assassin-s-creed-ii.jpg?v=1793470060745",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/33230/header.jpg",
     "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/33230/capsule_231x87.jpg?t=1786611094",
     "steamAppId": 33230,
@@ -386,7 +386,7 @@
     "updatedAt": 1793470060745
   },
   "assemble with care": {
-    "url": "/assets/assemble-with-care.jpg?v=1793470062187",
+    "url": "assets/assemble-with-care.jpg?v=1793470062187",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1202900/header.jpg",
     "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1202900/capsule_231x87.jpg?t=1780069462",
     "steamAppId": 1202900,
@@ -398,7 +398,7 @@
     "updatedAt": 1793470062187
   },
   "astral ascent": {
-    "url": "/assets/astral-ascent.jpg?v=1793470062194",
+    "url": "assets/astral-ascent.jpg?v=1793470062194",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1280930/header.jpg",
     "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1280930/8326b5c061ca3c8eb24ee9a45d4b5a93f379067c/capsule_231x87.jpg?t=1791479357",
     "steamAppId": 1280930,
@@ -410,7 +410,7 @@
     "updatedAt": 1793470062194
   },
   "athena crisis": {
-    "url": "/assets/athena-crisis.jpg?v=1793470062264",
+    "url": "assets/athena-crisis.jpg?v=1793470062264",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2456430/header.jpg",
     "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2456430/capsule_231x87.jpg?t=1750289622",
     "steamAppId": 2456430,
@@ -435,7 +435,7 @@
     "updatedAt": 1793470087894
   },
   "baby steps": {
-    "url": "/assets/baby-steps.jpg?v=1793470062233",
+    "url": "assets/baby-steps.jpg?v=1793470062233",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1281040/header.jpg",
     "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1281040/679586648f549d74c49c7d4609e3d0a3ac6a56a0/capsule_231x87.jpg?t=1761065780",
     "steamAppId": 1281040,
@@ -449,14 +449,14 @@
   "ball x pit": {
     "steamAppId": 2062430,
     "source": "steam-cs",
-    "url": "/assets/ball-x-pit.jpg?v=1793541725073",
+    "url": "assets/ball-x-pit.jpg?v=1793541725073",
     "localFile": "assets/ball-x-pit.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2062430/93669476208e773101f9949b9e668322fc39ef85/capsule_231x87.jpg?t=1790869056",
     "updatedAt": 1793541725073
   },
   "barony": {
-    "url": "/assets/barony.jpg?v=1793470062278",
+    "url": "assets/barony.jpg?v=1793470062278",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/371970/header.jpg",
     "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/371970/dbf26f8eaf1174caa3c266a5194734cdddc4e491/capsule_231x87.jpg?t=1785259607",
     "steamAppId": 371970,
@@ -468,7 +468,7 @@
     "updatedAt": 1793470062278
   },
   "bastion": {
-    "url": "/assets/bastion.jpg?v=1793470062302",
+    "url": "assets/bastion.jpg?v=1793470062302",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/107100/header.jpg",
     "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/107100/capsule_231x87.jpg?t=1729113932",
     "steamAppId": 107100,
@@ -480,7 +480,7 @@
     "updatedAt": 1793470062303
   },
   "batman: arkham asylum": {
-    "url": "/assets/batman-arkham-asylum.jpg?v=1793470062313",
+    "url": "assets/batman-arkham-asylum.jpg?v=1793470062313",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/35140/header.jpg",
     "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/35140/capsule_231x87.jpg?t=1745966724",
     "steamAppId": 35140,
@@ -492,7 +492,7 @@
     "updatedAt": 1793470062313
   },
   "bioshock": {
-    "url": "/assets/bioshock.jpg?v=1793470071550",
+    "url": "assets/bioshock.jpg?v=1793470071550",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/7670/header.jpg",
     "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/7670/capsule_231x87.jpg?t=1730172622",
     "steamAppId": 7670,
@@ -504,7 +504,7 @@
     "updatedAt": 1793470071550
   },
   "bioshock 2": {
-    "url": "/assets/bioshock-2.jpg?v=1793470071536",
+    "url": "assets/bioshock-2.jpg?v=1793470071536",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/8850/header.jpg",
     "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/8850/capsule_231x87.jpg?t=1730174099",
     "steamAppId": 8850,
@@ -516,7 +516,7 @@
     "updatedAt": 1793470071537
   },
   "bioshock infinite": {
-    "url": "/assets/bioshock-infinite.jpg?v=1793470071591",
+    "url": "assets/bioshock-infinite.jpg?v=1793470071591",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/8870/header.jpg",
     "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/8870/capsule_231x87.jpg?t=1728673518",
     "steamAppId": 8870,
@@ -528,7 +528,7 @@
     "updatedAt": 1793470071591
   },
   "borderlands 2": {
-    "url": "/assets/borderlands-2.jpg?v=1793470071646",
+    "url": "assets/borderlands-2.jpg?v=1793470071646",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/49520/header.jpg",
     "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/49520/capsule_231x87.jpg?t=1793288352",
     "steamAppId": 49520,
@@ -540,7 +540,7 @@
     "updatedAt": 1793470071646
   },
   "call of duty: modern warfare 2 (2009)": {
-    "url": "/assets/call-of-duty-modern-warfare-2-2009.jpg?v=1793470060670",
+    "url": "assets/call-of-duty-modern-warfare-2-2009.jpg?v=1793470060670",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/10180/header.jpg",
     "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/10180/capsule_231x87.jpg?t=1780962606",
     "steamAppId": 10180,
@@ -552,7 +552,7 @@
     "updatedAt": 1793470060670
   },
   "cave story+": {
-    "url": "/assets/cave-story.jpg?v=1793470071652",
+    "url": "assets/cave-story.jpg?v=1793470071652",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/200900/header.jpg",
     "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/200900/b33f9c291f8b710eb7f61ca0241a88541ff56438/capsule_231x87.jpg?t=1790010222",
     "steamAppId": 200900,
@@ -564,7 +564,7 @@
     "updatedAt": 1793470071652
   },
   "cities: skylines": {
-    "url": "/assets/cities-skylines.jpg?v=1793470071697",
+    "url": "assets/cities-skylines.jpg?v=1793470071697",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/255710/header.jpg",
     "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/255710/4cf458b43b41e4f86d3e4e604e7a7577c7926b01/capsule_231x87.jpg?t=1791468493",
     "steamAppId": 255710,
@@ -576,7 +576,7 @@
     "updatedAt": 1793470071697
   },
   "civcity: rome": {
-    "url": "/assets/civcity-rome.jpg?v=1793470071750",
+    "url": "assets/civcity-rome.jpg?v=1793470071750",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3980/header.jpg",
     "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3980/capsule_231x87.jpg?t=1569015577",
     "steamAppId": 3980,
@@ -588,7 +588,7 @@
     "updatedAt": 1793470071750
   },
   "counter-strike: source": {
-    "url": "/assets/counter-strike-source.jpg?v=1793470071843",
+    "url": "assets/counter-strike-source.jpg?v=1793470071843",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/240/header.jpg",
     "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/240/capsule_231x87.jpg?t=1745368575",
     "steamAppId": 240,
@@ -600,7 +600,7 @@
     "updatedAt": 1793470071843
   },
   "cryptmaster": {
-    "url": "/assets/cryptmaster.jpg?v=1793470071886",
+    "url": "assets/cryptmaster.jpg?v=1793470071886",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1885110/header.jpg",
     "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1885110/ebb21e04430f470f10b122326f1bcbc637ab9793/capsule_231x87.jpg?t=1791218140",
     "steamAppId": 1885110,
@@ -612,7 +612,7 @@
     "updatedAt": 1793470071886
   },
   "cult of the lamb": {
-    "url": "/assets/cult-of-the-lamb.jpg?v=1793470071936",
+    "url": "assets/cult-of-the-lamb.jpg?v=1793470071936",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1313140/header.jpg",
     "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1313140/1ac7c83bd1ce239a12d8e67b8ebc45765bb60319/capsule_231x87.jpg?t=1786554901",
     "steamAppId": 1313140,
@@ -624,7 +624,7 @@
     "updatedAt": 1793470071936
   },
   "destiny 2": {
-    "url": "/assets/destiny-2.png?v=1793470073392",
+    "url": "assets/destiny-2.png?v=1793470073392",
     "fallbackUrl": null,
     "source": "wikipedia",
     "localFile": "assets/destiny-2.png",
@@ -634,7 +634,7 @@
     "updatedAt": 1793470073392
   },
   "deus ex: human revolution": {
-    "url": "/assets/deus-ex-human-revolution.png?v=1793470073414",
+    "url": "assets/deus-ex-human-revolution.png?v=1793470073414",
     "fallbackUrl": null,
     "source": "wikipedia",
     "localFile": "assets/deus-ex-human-revolution.png",
@@ -644,7 +644,7 @@
     "updatedAt": 1793470073414
   },
   "don't starve": {
-    "url": "/assets/don-t-starve.png?v=1793470073814",
+    "url": "assets/don-t-starve.png?v=1793470073814",
     "fallbackUrl": null,
     "source": "wikipedia",
     "localFile": "assets/don-t-starve.png",
@@ -654,7 +654,7 @@
     "updatedAt": 1793470073814
   },
   "doom": {
-    "url": "/assets/doom.png?v=1793470073885",
+    "url": "assets/doom.png?v=1793470073885",
     "fallbackUrl": null,
     "source": "wikipedia",
     "localFile": "assets/doom.png",
@@ -664,7 +664,7 @@
     "updatedAt": 1793470073885
   },
   "dosa divas": {
-    "url": "/assets/dosa-divas.png?v=1793470073964",
+    "url": "assets/dosa-divas.png?v=1793470073964",
     "fallbackUrl": null,
     "source": "wikipedia",
     "localFile": "assets/dosa-divas.png",
@@ -674,7 +674,7 @@
     "updatedAt": 1793470073964
   },
   "doom eternal": {
-    "url": "/assets/doom-eternal.png?v=1793470073898",
+    "url": "assets/doom-eternal.png?v=1793470073898",
     "fallbackUrl": null,
     "source": "wikipedia",
     "localFile": "assets/doom-eternal.png",
@@ -684,7 +684,7 @@
     "updatedAt": 1793470073898
   },
   "dust: an elysian tail": {
-    "url": "/assets/dust-an-elysian-tail.jpg?v=1793470112606",
+    "url": "assets/dust-an-elysian-tail.jpg?v=1793470112606",
     "fallbackUrl": null,
     "source": "wikipedia",
     "localFile": "assets/dust-an-elysian-tail.jpg",
@@ -694,7 +694,7 @@
     "updatedAt": 1793470112606
   },
   "fallout 4": {
-    "url": "/assets/fallout-4.png?v=1793470129181",
+    "url": "assets/fallout-4.png?v=1793470129181",
     "fallbackUrl": null,
     "source": "wikipedia",
     "localFile": "assets/fallout-4.png",
@@ -704,7 +704,7 @@
     "updatedAt": 1793470129181
   },
   "fallout 3": {
-    "url": "/assets/fallout-3.png?v=1793470129173",
+    "url": "assets/fallout-3.png?v=1793470129173",
     "fallbackUrl": null,
     "source": "wikipedia",
     "localFile": "assets/fallout-3.png",
@@ -714,7 +714,7 @@
     "updatedAt": 1793470129174
   },
   "for honor": {
-    "url": "/assets/for-honor.png?v=1793470129898",
+    "url": "assets/for-honor.png?v=1793470129898",
     "fallbackUrl": null,
     "source": "wikipedia",
     "localFile": "assets/for-honor.png",
@@ -724,7 +724,7 @@
     "updatedAt": 1793470129898
   },
   "freedom force vs. the 3rd reich": {
-    "url": "/assets/freedom-force-vs-the-3rd-reich.jpg?v=1793470130177",
+    "url": "assets/freedom-force-vs-the-3rd-reich.jpg?v=1793470130177",
     "fallbackUrl": null,
     "source": "wikipedia",
     "localFile": "assets/freedom-force-vs-the-3rd-reich.jpg",
@@ -734,7 +734,7 @@
     "updatedAt": 1793470130177
   },
   "ftl: faster than light": {
-    "url": "/assets/ftl-faster-than-light.png?v=1793470130371",
+    "url": "assets/ftl-faster-than-light.png?v=1793470130371",
     "fallbackUrl": null,
     "source": "wikipedia",
     "localFile": "assets/ftl-faster-than-light.png",
@@ -744,7 +744,7 @@
     "updatedAt": 1793470130371
   },
   "frozen synapse": {
-    "url": "/assets/frozen-synapse.png?v=1793470130312",
+    "url": "assets/frozen-synapse.png?v=1793470130312",
     "fallbackUrl": null,
     "source": "wikipedia",
     "localFile": "assets/frozen-synapse.png",
@@ -754,7 +754,7 @@
     "updatedAt": 1793470130312
   },
   "genshin impact": {
-    "url": "/assets/genshin-impact.png?v=1793470130382",
+    "url": "assets/genshin-impact.png?v=1793470130382",
     "fallbackUrl": null,
     "source": "wikipedia",
     "localFile": "assets/genshin-impact.png",
@@ -764,7 +764,7 @@
     "updatedAt": 1793470130382
   },
   "goat simulator 3": {
-    "url": "/assets/goat-simulator-3.png?v=1793470130457",
+    "url": "assets/goat-simulator-3.png?v=1793470130457",
     "fallbackUrl": null,
     "source": "wikipedia",
     "localFile": "assets/goat-simulator-3.png",
@@ -774,7 +774,7 @@
     "updatedAt": 1793470130457
   },
   "gorilla tag": {
-    "url": "/assets/gorilla-tag.png?v=1793470130889",
+    "url": "assets/gorilla-tag.png?v=1793470130889",
     "fallbackUrl": null,
     "source": "wikipedia",
     "localFile": "assets/gorilla-tag.png",
@@ -784,7 +784,7 @@
     "updatedAt": 1793470130890
   },
   "hack and climb": {
-    "url": "/assets/hack-and-climb.png?v=1793470131078",
+    "url": "assets/hack-and-climb.png?v=1793470131078",
     "fallbackUrl": null,
     "source": "wikipedia",
     "localFile": "assets/hack-and-climb.png",
@@ -794,7 +794,7 @@
     "updatedAt": 1793470131078
   },
   "hogwarts legacy": {
-    "url": "/assets/hogwarts-legacy.jpg?v=1793470132513",
+    "url": "assets/hogwarts-legacy.jpg?v=1793470132513",
     "fallbackUrl": null,
     "source": "wikipedia",
     "localFile": "assets/hogwarts-legacy.jpg",
@@ -804,7 +804,7 @@
     "updatedAt": 1793470132513
   },
   "inscryption": {
-    "url": "/assets/inscryption.jpg?v=1793470132998",
+    "url": "assets/inscryption.jpg?v=1793470132998",
     "fallbackUrl": null,
     "source": "wikipedia",
     "localFile": "assets/inscryption.jpg",
@@ -814,7 +814,7 @@
     "updatedAt": 1793470132998
   },
   "just dance": {
-    "url": "/assets/just-dance.png?v=1793470133278",
+    "url": "assets/just-dance.png?v=1793470133278",
     "fallbackUrl": null,
     "source": "wikipedia",
     "localFile": "assets/just-dance.png",
@@ -824,7 +824,7 @@
     "updatedAt": 1793470133278
   },
   "marvel heroes omega": {
-    "url": "/assets/marvel-heroes-omega.png?v=1793470135225",
+    "url": "assets/marvel-heroes-omega.png?v=1793470135225",
     "fallbackUrl": null,
     "source": "wikipedia",
     "localFile": "assets/marvel-heroes-omega.png",
@@ -834,7 +834,7 @@
     "updatedAt": 1793470135225
   },
   "marvel's guardians of the galaxy": {
-    "url": "/assets/marvel-s-guardians-of-the-galaxy.png?v=1793470135264",
+    "url": "assets/marvel-s-guardians-of-the-galaxy.png?v=1793470135264",
     "fallbackUrl": null,
     "source": "wikipedia",
     "localFile": "assets/marvel-s-guardians-of-the-galaxy.png",
@@ -844,7 +844,7 @@
     "updatedAt": 1793470135264
   },
   "meccha chameleon": {
-    "url": "/assets/meccha-chameleon.jpg?v=1793470135317",
+    "url": "assets/meccha-chameleon.jpg?v=1793470135317",
     "fallbackUrl": null,
     "source": "wikipedia",
     "localFile": "assets/meccha-chameleon.jpg",
@@ -854,7 +854,7 @@
     "updatedAt": 1793470135317
   },
   "middle-earth: shadow of mordor": {
-    "url": "/assets/middle-earth-shadow-of-mordor.jpg?v=1793470135609",
+    "url": "assets/middle-earth-shadow-of-mordor.jpg?v=1793470135609",
     "fallbackUrl": null,
     "source": "wikipedia",
     "localFile": "assets/middle-earth-shadow-of-mordor.jpg",
@@ -864,7 +864,7 @@
     "updatedAt": 1793470135609
   },
   "monaco": {
-    "url": "/assets/monaco.png?v=1793470135695",
+    "url": "assets/monaco.png?v=1793470135695",
     "fallbackUrl": null,
     "source": "wikipedia",
     "localFile": "assets/monaco.png",
@@ -874,7 +874,7 @@
     "updatedAt": 1793470135695
   },
   "new pokemon snap": {
-    "url": "/assets/new-pokemon-snap.png?v=1793470136439",
+    "url": "assets/new-pokemon-snap.png?v=1793470136439",
     "fallbackUrl": null,
     "source": "wikipedia",
     "localFile": "assets/new-pokemon-snap.png",
@@ -884,7 +884,7 @@
     "updatedAt": 1793470136439
   },
   "nidhogg 2": {
-    "url": "/assets/nidhogg-2.png?v=1793470136582",
+    "url": "assets/nidhogg-2.png?v=1793470136582",
     "fallbackUrl": null,
     "source": "wikipedia",
     "localFile": "assets/nidhogg-2.png",
@@ -894,7 +894,7 @@
     "updatedAt": 1793470136582
   },
   "nintendo switch sports": {
-    "url": "/assets/nintendo-switch-sports.png?v=1793470136638",
+    "url": "assets/nintendo-switch-sports.png?v=1793470136638",
     "fallbackUrl": null,
     "source": "wikipedia",
     "localFile": "assets/nintendo-switch-sports.png",
@@ -904,7 +904,7 @@
     "updatedAt": 1793470136638
   },
   "noita": {
-    "url": "/assets/noita.png?v=1793470136872",
+    "url": "assets/noita.png?v=1793470136872",
     "fallbackUrl": null,
     "source": "wikipedia",
     "localFile": "assets/noita.png",
@@ -914,7 +914,7 @@
     "updatedAt": 1793470136872
   },
   "old school runescape": {
-    "url": "/assets/old-school-runescape.jpg?v=1793470137038",
+    "url": "assets/old-school-runescape.jpg?v=1793470137038",
     "fallbackUrl": null,
     "source": "wikipedia",
     "localFile": "assets/old-school-runescape.jpg",
@@ -924,7 +924,7 @@
     "updatedAt": 1793470137038
   },
   "on the rain-slick precipice of darkness, episode one": {
-    "url": "/assets/on-the-rain-slick-precipice-of-darkness-episode-one.jpg?v=1793470137103",
+    "url": "assets/on-the-rain-slick-precipice-of-darkness-episode-one.jpg?v=1793470137103",
     "fallbackUrl": null,
     "source": "wikipedia",
     "localFile": "assets/on-the-rain-slick-precipice-of-darkness-episode-one.jpg",
@@ -960,7 +960,7 @@
     "updatedAt": 1793470144820
   },
   "paw patrol on a roll!": {
-    "url": "/assets/paw-patrol-on-a-roll.png?v=1793470137797",
+    "url": "assets/paw-patrol-on-a-roll.png?v=1793470137797",
     "fallbackUrl": null,
     "source": "wikipedia",
     "localFile": "assets/paw-patrol-on-a-roll.png",
@@ -970,7 +970,7 @@
     "updatedAt": 1793470137797
   },
   "pico park": {
-    "url": "/assets/pico-park.png?v=1793470137946",
+    "url": "assets/pico-park.png?v=1793470137946",
     "fallbackUrl": null,
     "source": "wikipedia",
     "localFile": "assets/pico-park.png",
@@ -980,7 +980,7 @@
     "updatedAt": 1793470137946
   },
   "pragmata": {
-    "url": "/assets/pragmata.jpg?v=1793470138503",
+    "url": "assets/pragmata.jpg?v=1793470138503",
     "fallbackUrl": null,
     "source": "wikipedia",
     "localFile": "assets/pragmata.jpg",
@@ -990,7 +990,7 @@
     "updatedAt": 1793470138503
   },
   "quake": {
-    "url": "/assets/quake.jpg?v=1793470138863",
+    "url": "assets/quake.jpg?v=1793470138863",
     "fallbackUrl": null,
     "source": "wikipedia",
     "localFile": "assets/quake.jpg",
@@ -1000,7 +1000,7 @@
     "updatedAt": 1793470138863
   },
   "return of the obra dinn": {
-    "url": "/assets/return-of-the-obra-dinn.jpg?v=1793470140296",
+    "url": "assets/return-of-the-obra-dinn.jpg?v=1793470140296",
     "fallbackUrl": null,
     "source": "wikipedia",
     "localFile": "assets/return-of-the-obra-dinn.jpg",
@@ -1010,7 +1010,7 @@
     "updatedAt": 1793470140296
   },
   "returnal": {
-    "url": "/assets/returnal.jpg?v=1793470140322",
+    "url": "assets/returnal.jpg?v=1793470140322",
     "fallbackUrl": null,
     "source": "wikipedia",
     "localFile": "assets/returnal.jpg",
@@ -1020,7 +1020,7 @@
     "updatedAt": 1793470140322
   },
   "restory: chill electronics repairs": {
-    "url": "/assets/restory-chill-electronics-repairs.png?v=1793470140224",
+    "url": "assets/restory-chill-electronics-repairs.png?v=1793470140224",
     "fallbackUrl": null,
     "source": "wikipedia",
     "localFile": "assets/restory-chill-electronics-repairs.png",
@@ -1030,7 +1030,7 @@
     "updatedAt": 1793470140225
   },
   "roblox": {
-    "url": "/assets/roblox.jpg?v=1793470140578",
+    "url": "assets/roblox.jpg?v=1793470140578",
     "fallbackUrl": null,
     "source": "wikipedia",
     "localFile": "assets/roblox.jpg",
@@ -1040,7 +1040,7 @@
     "updatedAt": 1793470140578
   },
   "satisfactory": {
-    "url": "/assets/satisfactory.jpg?v=1793470142054",
+    "url": "assets/satisfactory.jpg?v=1793470142054",
     "fallbackUrl": null,
     "source": "wikipedia",
     "localFile": "assets/satisfactory.jpg",
@@ -1050,7 +1050,7 @@
     "updatedAt": 1793470142054
   },
   "sid meier's civilization v": {
-    "url": "/assets/sid-meier-s-civilization-v.jpg?v=1793470148381",
+    "url": "assets/sid-meier-s-civilization-v.jpg?v=1793470148381",
     "fallbackUrl": null,
     "source": "wikipedia",
     "localFile": "assets/sid-meier-s-civilization-v.jpg",
@@ -1060,7 +1060,7 @@
     "updatedAt": 1793470148381
   },
   "sid meier's railroads!": {
-    "url": "/assets/sid-meier-s-railroads.jpg?v=1793470148760",
+    "url": "assets/sid-meier-s-railroads.jpg?v=1793470148760",
     "fallbackUrl": null,
     "source": "wikipedia",
     "localFile": "assets/sid-meier-s-railroads.jpg",
@@ -1070,7 +1070,7 @@
     "updatedAt": 1793470148760
   },
   "spelunky": {
-    "url": "/assets/spelunky.jpg?v=1793470148813",
+    "url": "assets/spelunky.jpg?v=1793470148813",
     "fallbackUrl": null,
     "source": "wikipedia",
     "localFile": "assets/spelunky.jpg",
@@ -1080,7 +1080,7 @@
     "updatedAt": 1793470148813
   },
   "splatoon 3": {
-    "url": "/assets/splatoon-3.png?v=1793470148872",
+    "url": "assets/splatoon-3.png?v=1793470148872",
     "fallbackUrl": null,
     "source": "wikipedia",
     "localFile": "assets/splatoon-3.png",
@@ -1090,7 +1090,7 @@
     "updatedAt": 1793470148872
   },
   "splatoon raiders": {
-    "url": "/assets/splatoon-raiders.png?v=1793470148879",
+    "url": "assets/splatoon-raiders.png?v=1793470148879",
     "fallbackUrl": null,
     "source": "wikipedia",
     "localFile": "assets/splatoon-raiders.png",
@@ -1100,7 +1100,7 @@
     "updatedAt": 1793470148879
   },
   "starfield": {
-    "url": "/assets/starfield.png?v=1793469979307",
+    "url": "assets/starfield.png?v=1793469979307",
     "fallbackUrl": null,
     "source": "wikipedia",
     "localFile": "assets/starfield.png",
@@ -1110,7 +1110,7 @@
     "updatedAt": 1793469979307
   },
   "stellaris": {
-    "url": "/assets/stellaris.jpg?v=1793470149777",
+    "url": "assets/stellaris.jpg?v=1793470149777",
     "fallbackUrl": null,
     "source": "wikipedia",
     "localFile": "assets/stellaris.jpg",
@@ -1120,7 +1120,7 @@
     "updatedAt": 1793470149777
   },
   "tera": {
-    "url": "/assets/tera.jpg?v=1793470151987",
+    "url": "assets/tera.jpg?v=1793470151987",
     "fallbackUrl": null,
     "source": "wikipedia",
     "localFile": "assets/tera.jpg",
@@ -1130,7 +1130,7 @@
     "updatedAt": 1793470151987
   },
   "terraria": {
-    "url": "/assets/terraria.jpg?v=1793470152053",
+    "url": "assets/terraria.jpg?v=1793470152053",
     "fallbackUrl": null,
     "source": "wikipedia",
     "localFile": "assets/terraria.jpg",
@@ -1140,7 +1140,7 @@
     "updatedAt": 1793470152053
   },
   "terratech legion": {
-    "url": "/assets/terratech-legion.jpg?v=1793470152091",
+    "url": "assets/terratech-legion.jpg?v=1793470152091",
     "fallbackUrl": null,
     "source": "wikipedia",
     "localFile": "assets/terratech-legion.jpg",
@@ -1150,7 +1150,7 @@
     "updatedAt": 1793470152091
   },
   "the castle doctrine": {
-    "url": "/assets/the-castle-doctrine.png?v=1793470152156",
+    "url": "assets/the-castle-doctrine.png?v=1793470152156",
     "fallbackUrl": null,
     "source": "wikipedia",
     "localFile": "assets/the-castle-doctrine.png",
@@ -1160,7 +1160,7 @@
     "updatedAt": 1793470152156
   },
   "tomodachi life: living the dream": {
-    "url": "/assets/tomodachi-life-living-the-dream.png?v=1793470153572",
+    "url": "assets/tomodachi-life-living-the-dream.png?v=1793470153572",
     "fallbackUrl": null,
     "source": "wikipedia",
     "localFile": "assets/tomodachi-life-living-the-dream.png",
@@ -1170,7 +1170,7 @@
     "updatedAt": 1793470153572
   },
   "torchlight: infinite": {
-    "url": "/assets/torchlight-infinite.jpg?v=1793470153904",
+    "url": "assets/torchlight-infinite.jpg?v=1793470153904",
     "fallbackUrl": null,
     "source": "wikipedia",
     "localFile": "assets/torchlight-infinite.jpg",
@@ -1180,7 +1180,7 @@
     "updatedAt": 1793470153905
   },
   "towerfall": {
-    "url": "/assets/towerfall.jpg?v=1793470153922",
+    "url": "assets/towerfall.jpg?v=1793470153922",
     "fallbackUrl": null,
     "source": "wikipedia",
     "localFile": "assets/towerfall.jpg",
@@ -1190,7 +1190,7 @@
     "updatedAt": 1793470153922
   },
   "trombone champ": {
-    "url": "/assets/trombone-champ.jpg?v=1793470153984",
+    "url": "assets/trombone-champ.jpg?v=1793470153984",
     "fallbackUrl": null,
     "source": "wikipedia",
     "localFile": "assets/trombone-champ.jpg",
@@ -1200,7 +1200,7 @@
     "updatedAt": 1793470153984
   },
   "ultimate drummer": {
-    "url": "/assets/ultimate-drummer.jpg?v=1793470154210",
+    "url": "assets/ultimate-drummer.jpg?v=1793470154210",
     "fallbackUrl": null,
     "source": "wikipedia",
     "localFile": "assets/ultimate-drummer.jpg",
@@ -1210,7 +1210,7 @@
     "updatedAt": 1793470154210
   },
   "untitled goose game": {
-    "url": "/assets/untitled-goose-game.png?v=1793470154288",
+    "url": "assets/untitled-goose-game.png?v=1793470154288",
     "fallbackUrl": null,
     "source": "wikipedia",
     "localFile": "assets/untitled-goose-game.png",
@@ -1220,7 +1220,7 @@
     "updatedAt": 1793470154289
   },
   "world of goo": {
-    "url": "/assets/world-of-goo.png?v=1793470156001",
+    "url": "assets/world-of-goo.png?v=1793470156001",
     "fallbackUrl": null,
     "source": "wikipedia",
     "localFile": "assets/world-of-goo.png",
@@ -1230,7 +1230,7 @@
     "updatedAt": 1793470156001
   },
   "zenless zone zero": {
-    "url": "/assets/zenless-zone-zero.png?v=1793470157090",
+    "url": "assets/zenless-zone-zero.png?v=1793470157090",
     "fallbackUrl": null,
     "source": "wikipedia",
     "localFile": "assets/zenless-zone-zero.png",
@@ -1240,7 +1240,7 @@
     "updatedAt": 1793470157090
   },
   "team sonic racing": {
-    "url": "/assets/team-sonic-racing.png?v=1793470152089",
+    "url": "assets/team-sonic-racing.png?v=1793470152089",
     "fallbackUrl": null,
     "source": "wikipedia",
     "localFile": "assets/team-sonic-racing.png",
@@ -1261,7 +1261,7 @@
     "updatedAt": 1793470266939
   },
   "darksiders": {
-    "url": "/assets/darksiders.jpg?v=1793484045908",
+    "url": "assets/darksiders.jpg?v=1793484045908",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/606280/header.jpg",
     "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/606280/capsule_231x87.jpg?t=1754079090",
     "steamAppId": 606280,
@@ -1273,7 +1273,7 @@
     "updatedAt": 1793484045908
   },
   "darksiders ii": {
-    "url": "/assets/darksiders-ii.jpg?v=1793484047250",
+    "url": "assets/darksiders-ii.jpg?v=1793484047250",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/606280/header.jpg",
     "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/606280/capsule_231x87.jpg?t=1754079090",
     "steamAppId": 606280,
@@ -1285,7 +1285,7 @@
     "updatedAt": 1793484047250
   },
   "death must die": {
-    "url": "/assets/death-must-die.jpg?v=1793484050133",
+    "url": "assets/death-must-die.jpg?v=1793484050133",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2334730/header.jpg",
     "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2334730/capsule_231x87.jpg?t=1744305567",
     "steamAppId": 2334730,
@@ -1297,7 +1297,7 @@
     "updatedAt": 1793484050133
   },
   "dead island": {
-    "url": "/assets/dead-island.jpg?v=1793484050145",
+    "url": "assets/dead-island.jpg?v=1793484050145",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/934700/header.jpg",
     "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/934700/a247bbfb249b71dfed4d6e582e5bea2b1dbd4358/capsule_231x87.jpg?t=1790170542",
     "steamAppId": 934700,
@@ -1309,7 +1309,7 @@
     "updatedAt": 1793484050145
   },
   "deathloop": {
-    "url": "/assets/deathloop.jpg?v=1793484050452",
+    "url": "assets/deathloop.jpg?v=1793484050452",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1252330/header.jpg",
     "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1252330/capsule_231x87.jpg?t=1750785409",
     "steamAppId": 1252330,
@@ -1321,7 +1321,7 @@
     "updatedAt": 1793484050452
   },
   "defense grid: the awakening": {
-    "url": "/assets/defense-grid-the-awakening.jpg?v=1793484050751",
+    "url": "assets/defense-grid-the-awakening.jpg?v=1793484050751",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/18500/header.jpg",
     "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/18500/capsule_231x87.jpg?t=1721059385",
     "steamAppId": 18500,
@@ -1333,7 +1333,7 @@
     "updatedAt": 1793484050751
   },
   "deus ex: mankind divided": {
-    "url": "/assets/deus-ex-mankind-divided.jpg?v=1793484052182",
+    "url": "assets/deus-ex-mankind-divided.jpg?v=1793484052182",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/337000/header.jpg",
     "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/337000/96fc2a82c1820c77aae26304c62388841c2a93be/capsule_231x87.jpg?t=1780670420",
     "steamAppId": 337000,
@@ -1345,7 +1345,7 @@
     "updatedAt": 1793484052182
   },
   "diablo iv": {
-    "url": "/assets/diablo-iv.jpg?v=1793484052669",
+    "url": "assets/diablo-iv.jpg?v=1793484052669",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2344520/header.jpg",
     "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2344520/7086c858ce766d047bf357515805eda229d966b0/capsule_231x87.jpg?t=1789491624",
     "steamAppId": 2344520,
@@ -1357,7 +1357,7 @@
     "updatedAt": 1793484052670
   },
   "disco elysium": {
-    "url": "/assets/disco-elysium.jpg?v=1793484052755",
+    "url": "assets/disco-elysium.jpg?v=1793484052755",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/632470/header.jpg",
     "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/632470/e2afca9fe9b3e70e0da58b3006c893f6d07d10d6/capsule_231x87.jpg?t=1780913406",
     "steamAppId": 632470,
@@ -1369,7 +1369,7 @@
     "updatedAt": 1793484052755
   },
   "donut county": {
-    "url": "/assets/donut-county.jpg?v=1793484053915",
+    "url": "assets/donut-county.jpg?v=1793484053915",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/702670/header.jpg",
     "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/702670/capsule_231x87.jpg?t=1729099497",
     "steamAppId": 702670,
@@ -1381,7 +1381,7 @@
     "updatedAt": 1793484053915
   },
   "dragon age: inquisition": {
-    "url": "/assets/dragon-age-inquisition.jpg?v=1793484053930",
+    "url": "assets/dragon-age-inquisition.jpg?v=1793484053930",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222690/header.jpg",
     "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1222690/capsule_231x87.jpg?t=1779987585",
     "steamAppId": 1222690,
@@ -1393,7 +1393,7 @@
     "updatedAt": 1793484053930
   },
   "dreamscaper": {
-    "url": "/assets/dreamscaper.jpg?v=1793484056177",
+    "url": "assets/dreamscaper.jpg?v=1793484056177",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1040420/header.jpg",
     "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1040420/capsule_231x87.jpg?t=1768951432",
     "steamAppId": 1040420,
@@ -1405,7 +1405,7 @@
     "updatedAt": 1793484056177
   },
   "dragon age: origins": {
-    "url": "/assets/dragon-age-origins.jpg?v=1793484056214",
+    "url": "assets/dragon-age-origins.jpg?v=1793484056214",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/47810/header.jpg",
     "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/47810/capsule_231x87.jpg?t=1782471846",
     "steamAppId": 47810,
@@ -1417,7 +1417,7 @@
     "updatedAt": 1793484056214
   },
   "dungeon defenders": {
-    "url": "/assets/dungeon-defenders.jpg?v=1793484057516",
+    "url": "assets/dungeon-defenders.jpg?v=1793484057516",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/65800/header.jpg",
     "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/65800/capsule_231x87.jpg?t=1792705345",
     "steamAppId": 65800,
@@ -1429,7 +1429,7 @@
     "updatedAt": 1793484057516
   },
   "dwarven realms": {
-    "url": "/assets/dwarven-realms.jpg?v=1793484057750",
+    "url": "assets/dwarven-realms.jpg?v=1793484057750",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2015240/header.jpg",
     "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2015240/capsule_231x87.jpg?t=1738315434",
     "steamAppId": 2015240,
@@ -1441,7 +1441,7 @@
     "updatedAt": 1793484057750
   },
   "elden ring": {
-    "url": "/assets/elden-ring.jpg?v=1793484058092",
+    "url": "assets/elden-ring.jpg?v=1793484058092",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/header.jpg",
     "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1245620/capsule_231x87.jpg?t=1790290043",
     "steamAppId": 1245620,
@@ -1453,7 +1453,7 @@
     "updatedAt": 1793484058092
   },
   "e.y.e: divine cybermancy": {
-    "url": "/assets/e-y-e-divine-cybermancy.jpg?v=1793484058250",
+    "url": "assets/e-y-e-divine-cybermancy.jpg?v=1793484058250",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/91700/header.jpg",
     "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/91700/capsule_231x87.jpg?t=1773335506",
     "steamAppId": 91700,
@@ -1465,7 +1465,7 @@
     "updatedAt": 1793484058250
   },
   "elite dangerous": {
-    "url": "/assets/elite-dangerous.jpg?v=1793484058595",
+    "url": "assets/elite-dangerous.jpg?v=1793484058595",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/359320/header.jpg",
     "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/359320/capsule_231x87.jpg?t=1759842966",
     "steamAppId": 359320,
@@ -1477,7 +1477,7 @@
     "updatedAt": 1793484058596
   },
   "evil genius": {
-    "url": "/assets/evil-genius.jpg?v=1793484059068",
+    "url": "assets/evil-genius.jpg?v=1793484059068",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3720/header.jpg",
     "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3720/capsule_231x87.jpg?t=1721932669",
     "steamAppId": 3720,
@@ -1489,7 +1489,7 @@
     "updatedAt": 1793484059068
   },
   "fall guys": {
-    "url": "/assets/fall-guys.jpg?v=1793484059206",
+    "url": "assets/fall-guys.jpg?v=1793484059206",
     "fallbackUrl": null,
     "source": "cheapshark",
     "localFile": "assets/fall-guys.jpg",
@@ -1499,7 +1499,7 @@
     "updatedAt": 1793484059206
   },
   "enter the gungeon": {
-    "url": "/assets/enter-the-gungeon.jpg?v=1793484059219",
+    "url": "assets/enter-the-gungeon.jpg?v=1793484059219",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/311690/header.jpg",
     "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/311690/0442f7ee5c81e2f0f87e0552f7fada938b6d65c6/capsule_231x87.jpg?t=1779733990",
     "steamAppId": 311690,
@@ -1511,7 +1511,7 @@
     "updatedAt": 1793484059219
   },
   "fantasy life i: the girl who steals time": {
-    "url": "/assets/fantasy-life-i-the-girl-who-steals-time.jpg?v=1793484059463",
+    "url": "assets/fantasy-life-i-the-girl-who-steals-time.jpg?v=1793484059463",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2993780/header.jpg",
     "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2993780/2422e5002173254993773f9d064be155a921736f/capsule_231x87.jpg?t=1749900924",
     "steamAppId": 2993780,
@@ -1523,7 +1523,7 @@
     "updatedAt": 1793484059463
   },
   "far cry 2": {
-    "url": "/assets/far-cry-2.jpg?v=1793484059596",
+    "url": "assets/far-cry-2.jpg?v=1793484059596",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/19900/header.jpg",
     "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/19900/capsule_231x87.jpg?t=1793371798",
     "steamAppId": 19900,
@@ -1535,7 +1535,7 @@
     "updatedAt": 1793484059596
   },
   "far cry 4": {
-    "url": "/assets/far-cry-4.jpg?v=1793484059671",
+    "url": "assets/far-cry-4.jpg?v=1793484059671",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/298110/header.jpg",
     "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/298110/69d90231217655f7ec20b9592fa761b66fe1df65/capsule_231x87.jpg?t=1793367666",
     "steamAppId": 298110,
@@ -1547,7 +1547,7 @@
     "updatedAt": 1793484059671
   },
   "final fantasy vii remake": {
-    "url": "/assets/final-fantasy-vii-remake.jpg?v=1793484059982",
+    "url": "assets/final-fantasy-vii-remake.jpg?v=1793484059982",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1462040/header.jpg",
     "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1462040/ec805ec87558eb40c712c7cca4eabc2e83cb57f7/capsule_231x87.jpg?t=1789446715",
     "steamAppId": 1462040,
@@ -1559,7 +1559,7 @@
     "updatedAt": 1793484059982
   },
   "far cry 5": {
-    "url": "/assets/far-cry-5.jpg?v=1793484059995",
+    "url": "assets/far-cry-5.jpg?v=1793484059995",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/552520/header.jpg",
     "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/552520/49aaa75a53de446d83429fe94920a8a9348ecf62/capsule_231x87.jpg?t=1792530774",
     "steamAppId": 552520,
@@ -1571,7 +1571,7 @@
     "updatedAt": 1793484059995
   },
   "frostpunk": {
-    "url": "/assets/frostpunk.jpg?v=1793484060690",
+    "url": "assets/frostpunk.jpg?v=1793484060690",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/323190/header.jpg",
     "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/323190/45bfdc7f6b60b2acab44cc96c488f938219c42fd/capsule_231x87.jpg?t=1793379407",
     "steamAppId": 323190,
@@ -1583,7 +1583,7 @@
     "updatedAt": 1793484060690
   },
   "freedom force": {
-    "url": "/assets/freedom-force.jpg?v=1793484061264",
+    "url": "assets/freedom-force.jpg?v=1793484061264",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/8880/header.jpg",
     "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/8880/capsule_231x87.jpg?t=1569012854",
     "steamAppId": 8880,
@@ -1595,7 +1595,7 @@
     "updatedAt": 1793484061265
   },
   "god of war ragnarök": {
-    "url": "/assets/god-of-war-ragnar-k.jpg?v=1793484102278",
+    "url": "assets/god-of-war-ragnar-k.jpg?v=1793484102278",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2322010/header.jpg",
     "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2322010/capsule_231x87.jpg?t=1776465233",
     "steamAppId": 2322010,
@@ -1607,7 +1607,7 @@
     "updatedAt": 1793484102278
   },
   "god of war": {
-    "url": "/assets/god-of-war.jpg?v=1793484102326",
+    "url": "assets/god-of-war.jpg?v=1793484102326",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1593500/header.jpg",
     "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1593500/capsule_231x87.jpg?t=1763059412",
     "steamAppId": 1593500,
@@ -1619,7 +1619,7 @@
     "updatedAt": 1793484102326
   },
   "ghost of tsushima": {
-    "url": "/assets/ghost-of-tsushima.jpg?v=1793484102362",
+    "url": "assets/ghost-of-tsushima.jpg?v=1793484102362",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2215430/header.jpg",
     "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2215430/capsule_231x87.jpg?t=1763409398",
     "steamAppId": 2215430,
@@ -1631,7 +1631,7 @@
     "updatedAt": 1793484102362
   },
   "grand theft auto v": {
-    "url": "/assets/grand-theft-auto-v.jpg?v=1793484102786",
+    "url": "assets/grand-theft-auto-v.jpg?v=1793484102786",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/header.jpg",
     "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3240220/a318bd9affe8eee32984b18794b273c256e9b2d6/capsule_231x87.jpg?t=1781187782",
     "steamAppId": 3240220,
@@ -1643,7 +1643,7 @@
     "updatedAt": 1793484102786
   },
   "griftlands": {
-    "url": "/assets/griftlands.jpg?v=1793484103088",
+    "url": "assets/griftlands.jpg?v=1793484103088",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/601840/header.jpg",
     "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/601840/capsule_231x87.jpg?t=1790880986",
     "steamAppId": 601840,
@@ -1655,7 +1655,7 @@
     "updatedAt": 1793484103088
   },
   "hades": {
-    "url": "/assets/hades.jpg?v=1793484103140",
+    "url": "assets/hades.jpg?v=1793484103140",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145360/header.jpg",
     "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1145360/capsule_231x87.jpg?t=1758127023",
     "steamAppId": 1145360,
@@ -1669,14 +1669,14 @@
   "good job!": {
     "steamAppId": 4596990,
     "source": "steam",
-    "url": "/assets/good-job.jpg?v=1793541728214",
+    "url": "assets/good-job.jpg?v=1793541728214",
     "localFile": "assets/good-job.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4596990/d2243739d81db307a09b36bfd7cf1256ceb9c050/capsule_231x87.jpg?t=1793282691",
     "updatedAt": 1793541728214
   },
   "half-life 2": {
-    "url": "/assets/half-life-2.jpg?v=1793484103673",
+    "url": "assets/half-life-2.jpg?v=1793484103673",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220/header.jpg",
     "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/220/951c6aca52bf32d7c95e9f8b3c04fa95e9a735ea/capsule_231x87.jpg?t=1745368545",
     "steamAppId": 220,
@@ -1688,7 +1688,7 @@
     "updatedAt": 1793484103673
   },
   "halls of torment": {
-    "url": "/assets/halls-of-torment.jpg?v=1793484104079",
+    "url": "assets/halls-of-torment.jpg?v=1793484104079",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2218750/header.jpg",
     "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2218750/de862be4dbf80a39e1e3f5e08479461ac2f2789b/capsule_231x87.jpg?t=1792677093",
     "steamAppId": 2218750,
@@ -1700,7 +1700,7 @@
     "updatedAt": 1793484104079
   },
   "helldivers": {
-    "url": "/assets/helldivers.jpg?v=1793484104475",
+    "url": "assets/helldivers.jpg?v=1793484104475",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/header.jpg",
     "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/553850/6de866c6fb786949a92a28d12f3e1c02d91bce60/capsule_231x87.jpg?t=1793395133",
     "steamAppId": 553850,
@@ -1712,7 +1712,7 @@
     "updatedAt": 1793484104475
   },
   "helldivers 2": {
-    "url": "/assets/helldivers-2.jpg?v=1793484104524",
+    "url": "assets/helldivers-2.jpg?v=1793484104524",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/header.jpg",
     "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/553850/6de866c6fb786949a92a28d12f3e1c02d91bce60/capsule_231x87.jpg?t=1793395133",
     "steamAppId": 553850,
@@ -1724,7 +1724,7 @@
     "updatedAt": 1793484104524
   },
   "hitman 3": {
-    "url": "/assets/hitman-3.webp?v=1793484105123",
+    "url": "assets/hitman-3.webp?v=1793484105123",
     "fallbackUrl": null,
     "source": "cheapshark",
     "localFile": "assets/hitman-3.webp",
@@ -1736,14 +1736,14 @@
   "heretic + hexen": {
     "steamAppId": 3286930,
     "source": "steam",
-    "url": "/assets/heretic-hexen.jpg?v=1793541728871",
+    "url": "assets/heretic-hexen.jpg?v=1793541728871",
     "localFile": "assets/heretic-hexen.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3286930/de32324207e4200d10d717f9e9cf877c1eb897e3/capsule_231x87.jpg?t=1756918167",
     "updatedAt": 1793541728871
   },
   "hollow knight: silksong": {
-    "url": "/assets/hollow-knight-silksong.jpg?v=1793484110506",
+    "url": "assets/hollow-knight-silksong.jpg?v=1793484110506",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1030300/header.jpg",
     "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1030300/b73ec03fbdb9e21e3c59eb7e59966949d0c17f29/capsule_231x87.jpg?t=1776125736",
     "steamAppId": 1030300,
@@ -1755,7 +1755,7 @@
     "updatedAt": 1793484110506
   },
   "hollow knight": {
-    "url": "/assets/hollow-knight.jpg?v=1793484110548",
+    "url": "assets/hollow-knight.jpg?v=1793484110548",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367520/header.jpg",
     "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/367520/fba7289f4c7e90ae9c0caa87e4225f3f9111d7dd/capsule_231x87.jpg?t=1776125684",
     "steamAppId": 367520,
@@ -1767,7 +1767,7 @@
     "updatedAt": 1793484110548
   },
   "horizon zero dawn": {
-    "url": "/assets/horizon-zero-dawn.jpg?v=1793484110802",
+    "url": "assets/horizon-zero-dawn.jpg?v=1793484110802",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2561580/header.jpg",
     "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2561580/507f27b6be81658f406a42e269a2e4b065941ade/capsule_231x87.jpg?t=1750952943",
     "steamAppId": 2561580,
@@ -1779,7 +1779,7 @@
     "updatedAt": 1793484110802
   },
   "injustice 2": {
-    "url": "/assets/injustice-2.jpg?v=1793484111384",
+    "url": "assets/injustice-2.jpg?v=1793484111384",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/627270/header.jpg",
     "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/627270/capsule_231x87.jpg?t=1745536404",
     "steamAppId": 627270,
@@ -1791,7 +1791,7 @@
     "updatedAt": 1793484111384
   },
   "into the breach": {
-    "url": "/assets/into-the-breach.jpg?v=1793484111415",
+    "url": "assets/into-the-breach.jpg?v=1793484111415",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/590380/header.jpg",
     "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/590380/capsule_231x87.jpg?t=1755610784",
     "steamAppId": 590380,
@@ -1803,7 +1803,7 @@
     "updatedAt": 1793484111415
   },
   "journey": {
-    "url": "/assets/journey.jpg?v=1793484111482",
+    "url": "assets/journey.jpg?v=1793484111482",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/638230/header.jpg",
     "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/638230/capsule_231x87.jpg?t=1729099361",
     "steamAppId": 638230,
@@ -1815,7 +1815,7 @@
     "updatedAt": 1793484111482
   },
   "katana zero": {
-    "url": "/assets/katana-zero.jpg?v=1793484111746",
+    "url": "assets/katana-zero.jpg?v=1793484111746",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/460950/header.jpg",
     "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/460950/capsule_231x87.jpg?t=1761066027",
     "steamAppId": 460950,
@@ -1827,7 +1827,7 @@
     "updatedAt": 1793484111746
   },
   "keywe": {
-    "url": "/assets/keywe.jpg?v=1793484111871",
+    "url": "assets/keywe.jpg?v=1793484111871",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1242980/header.jpg",
     "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1242980/capsule_231x87.jpg?t=1715615079",
     "steamAppId": 1242980,
@@ -1839,7 +1839,7 @@
     "updatedAt": 1793484111871
   },
   "kena: bridge of spirits": {
-    "url": "/assets/kena-bridge-of-spirits.jpg?v=1793484111948",
+    "url": "assets/kena-bridge-of-spirits.jpg?v=1793484111948",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1954200/header.jpg",
     "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1954200/capsule_231x87.jpg?t=1772142684",
     "steamAppId": 1954200,
@@ -1851,7 +1851,7 @@
     "updatedAt": 1793484111948
   },
   "last epoch": {
-    "url": "/assets/last-epoch.jpg?v=1793484112286",
+    "url": "assets/last-epoch.jpg?v=1793484112286",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/899770/header.jpg",
     "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/899770/d5664ad4b684e628d773d5a82afaee018c3d2362/capsule_231x87_alt_assets_2.jpg?t=1792426633",
     "steamAppId": 899770,
@@ -1863,7 +1863,7 @@
     "updatedAt": 1793484112286
   },
   "killing floor": {
-    "url": "/assets/killing-floor.jpg?v=1793484112372",
+    "url": "assets/killing-floor.jpg?v=1793484112372",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1250/header.jpg",
     "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1250/capsule_231x87.jpg?t=1789667388",
     "steamAppId": 1250,
@@ -1875,7 +1875,7 @@
     "updatedAt": 1793484112372
   },
   "kill knight": {
-    "url": "/assets/kill-knight.jpg?v=1793484112405",
+    "url": "assets/kill-knight.jpg?v=1793484112405",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2694420/header.jpg",
     "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2694420/833b5eea0f58ffe9c933d3e59864f78437db6c20/capsule_231x87_alt_assets_0.jpg?t=1791930627",
     "steamAppId": 2694420,
@@ -1887,7 +1887,7 @@
     "updatedAt": 1793484112405
   },
   "let it die": {
-    "url": "/assets/let-it-die.jpg?v=1793484112704",
+    "url": "assets/let-it-die.jpg?v=1793484112704",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/794600/header.jpg",
     "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/794600/capsule_231x87.jpg?t=1793245159",
     "steamAppId": 794600,
@@ -1899,7 +1899,7 @@
     "updatedAt": 1793484112704
   },
   "lost planet: extreme condition": {
-    "url": "/assets/lost-planet-extreme-condition.jpg?v=1793484112785",
+    "url": "assets/lost-planet-extreme-condition.jpg?v=1793484112785",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6510/header.jpg",
     "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/6510/capsule_231x87.jpg?t=1709710940",
     "steamAppId": 6510,
@@ -1911,7 +1911,7 @@
     "updatedAt": 1793484112785
   },
   "loop hero": {
-    "url": "/assets/loop-hero.jpg?v=1793484112815",
+    "url": "assets/loop-hero.jpg?v=1793484112815",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1282730/header.jpg",
     "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1282730/capsule_231x87.jpg?t=1751489185",
     "steamAppId": 1282730,
@@ -1923,7 +1923,7 @@
     "updatedAt": 1793484112815
   },
   "luigi's mansion 3": {
-    "url": "/assets/luigi-s-mansion-3.jpg?v=1793484113414",
+    "url": "assets/luigi-s-mansion-3.jpg?v=1793484113414",
     "fallbackUrl": null,
     "source": "cheapshark",
     "localFile": "assets/luigi-s-mansion-3.jpg",
@@ -1933,7 +1933,7 @@
     "updatedAt": 1793484113414
   },
   "magicka": {
-    "url": "/assets/magicka.jpg?v=1793484113610",
+    "url": "assets/magicka.jpg?v=1793484113610",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/42910/header.jpg",
     "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/42910/capsule_231x87.jpg?t=1726497076",
     "steamAppId": 42910,
@@ -1945,7 +1945,7 @@
     "updatedAt": 1793484113610
   },
   "mark of the ninja": {
-    "url": "/assets/mark-of-the-ninja.jpg?v=1793484114455",
+    "url": "assets/mark-of-the-ninja.jpg?v=1793484114455",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/860950/header.jpg",
     "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/860950/capsule_231x87.jpg?t=1792788425",
     "steamAppId": 860950,
@@ -1957,7 +1957,7 @@
     "updatedAt": 1793484114455
   },
   "sid meier's civilization iv": {
-    "url": "/assets/sid-meier-s-civilization-iv.jpg?v=1793484122326",
+    "url": "assets/sid-meier-s-civilization-iv.jpg?v=1793484122326",
     "fallbackUrl": null,
     "source": "wikipedia",
     "localFile": "assets/sid-meier-s-civilization-iv.jpg",
@@ -1967,7 +1967,7 @@
     "updatedAt": 1793484122327
   },
   "star wars: squadrons": {
-    "url": "/assets/star-wars-squadrons.png?v=1793484123850",
+    "url": "assets/star-wars-squadrons.png?v=1793484123850",
     "fallbackUrl": null,
     "source": "wikipedia",
     "localFile": "assets/star-wars-squadrons.png",
@@ -1977,7 +1977,7 @@
     "updatedAt": 1793484123851
   },
   "team fortress 2": {
-    "url": "/assets/team-fortress-2.png?v=1793484649890",
+    "url": "assets/team-fortress-2.png?v=1793484649890",
     "fallbackUrl": null,
     "source": "wikipedia",
     "localFile": "assets/team-fortress-2.png",
@@ -2000,7 +2000,7 @@
   "aperture desk job": {
     "steamAppId": 1902490,
     "source": "steam",
-    "url": "/assets/aperture-desk-job.jpg?v=1793541724530",
+    "url": "assets/aperture-desk-job.jpg?v=1793541724530",
     "localFile": "assets/aperture-desk-job.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1902490/library_600x900.jpg",
@@ -2009,7 +2009,7 @@
   "apex legends": {
     "steamAppId": 1172470,
     "source": "steam",
-    "url": "/assets/apex-legends.jpg?v=1793541725537",
+    "url": "assets/apex-legends.jpg?v=1793541725537",
     "localFile": "assets/apex-legends.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/library_600x900.jpg",
@@ -2017,7 +2017,7 @@
   },
   "bloodborne": {
     "source": "wikipedia",
-    "url": "/assets/bloodborne.png?v=1793541726469",
+    "url": "assets/bloodborne.png?v=1793541726469",
     "localFile": "assets/bloodborne.png",
     "hasLocalAsset": true,
     "remoteUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Hidetaka_Miyazaki%2C_The_Game_Awards_2022_%28cropped%29.png/500px-Hidetaka_Miyazaki%2C_The_Game_Awards_2022_%28cropped%29.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
@@ -2026,7 +2026,7 @@
   "champions online": {
     "steamAppId": 9880,
     "source": "steam",
-    "url": "/assets/champions-online.jpg?v=1793541727298",
+    "url": "assets/champions-online.jpg?v=1793541727298",
     "localFile": "assets/champions-online.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/9880/library_600x900.jpg",
@@ -2035,7 +2035,7 @@
   "dota 2": {
     "steamAppId": 570,
     "source": "steam",
-    "url": "/assets/dota-2.jpg?v=1793541727661",
+    "url": "assets/dota-2.jpg?v=1793541727661",
     "localFile": "assets/dota-2.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570/library_600x900.jpg",
@@ -2044,7 +2044,7 @@
   "hamster playground": {
     "steamAppId": 1442670,
     "source": "steam",
-    "url": "/assets/hamster-playground.jpg?v=1793541729369",
+    "url": "assets/hamster-playground.jpg?v=1793541729369",
     "localFile": "assets/hamster-playground.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1442670/library_600x900.jpg",
@@ -2053,7 +2053,7 @@
   "mass effect (2007)": {
     "steamAppId": 17460,
     "source": "steam",
-    "url": "/assets/mass-effect-2007.jpg?v=1793541731781",
+    "url": "assets/mass-effect-2007.jpg?v=1793541731781",
     "localFile": "assets/mass-effect-2007.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/17460/library_600x900.jpg",
@@ -2062,7 +2062,7 @@
   "metal gear solid v: the phantom pain": {
     "steamAppId": 287700,
     "source": "steam",
-    "url": "/assets/metal-gear-solid-v-the-phantom-pain.jpg?v=1793541975241",
+    "url": "assets/metal-gear-solid-v-the-phantom-pain.jpg?v=1793541975241",
     "localFile": "assets/metal-gear-solid-v-the-phantom-pain.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/287700/library_600x900.jpg",
@@ -2071,7 +2071,7 @@
   "moonlighter": {
     "steamAppId": 2350790,
     "source": "steam",
-    "url": "/assets/moonlighter.jpg?v=1793541981346",
+    "url": "assets/moonlighter.jpg?v=1793541981346",
     "localFile": "assets/moonlighter.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2350790/library_600x900.jpg",
@@ -2080,7 +2080,7 @@
   "mewgenics": {
     "steamAppId": 686060,
     "source": "steam",
-    "url": "/assets/mewgenics.jpg?v=1793541981389",
+    "url": "assets/mewgenics.jpg?v=1793541981389",
     "localFile": "assets/mewgenics.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/686060/library_600x900.jpg",
@@ -2089,7 +2089,7 @@
   "monster hunter rise": {
     "steamAppId": 1446780,
     "source": "steam",
-    "url": "/assets/monster-hunter-rise.jpg?v=1793541981487",
+    "url": "assets/monster-hunter-rise.jpg?v=1793541981487",
     "localFile": "assets/monster-hunter-rise.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1446780/library_600x900.jpg",
@@ -2098,7 +2098,7 @@
   "moving out": {
     "steamAppId": 996770,
     "source": "steam",
-    "url": "/assets/moving-out.jpg?v=1793541982064",
+    "url": "assets/moving-out.jpg?v=1793541982064",
     "localFile": "assets/moving-out.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/996770/library_600x900.jpg",
@@ -2107,7 +2107,7 @@
   "mortal kombat x": {
     "steamAppId": 307780,
     "source": "steam",
-    "url": "/assets/mortal-kombat-x.jpg?v=1793541982138",
+    "url": "assets/mortal-kombat-x.jpg?v=1793541982138",
     "localFile": "assets/mortal-kombat-x.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/307780/library_600x900.jpg",
@@ -2116,7 +2116,7 @@
   "naruto shippuden: ultimate ninja storm": {
     "steamAppId": 349040,
     "source": "steam",
-    "url": "/assets/naruto-shippuden-ultimate-ninja-storm.jpg?v=1793541982261",
+    "url": "assets/naruto-shippuden-ultimate-ninja-storm.jpg?v=1793541982261",
     "localFile": "assets/naruto-shippuden-ultimate-ninja-storm.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/349040/library_600x900.jpg",
@@ -2125,7 +2125,7 @@
   "neon abyss": {
     "steamAppId": 2235200,
     "source": "steam",
-    "url": "/assets/neon-abyss.jpg?v=1793541982523",
+    "url": "assets/neon-abyss.jpg?v=1793541982523",
     "localFile": "assets/neon-abyss.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2235200/library_600x900.jpg",
@@ -2134,7 +2134,7 @@
   "neverwinter": {
     "steamAppId": 109600,
     "source": "steam",
-    "url": "/assets/neverwinter.jpg?v=1793541982591",
+    "url": "assets/neverwinter.jpg?v=1793541982591",
     "localFile": "assets/neverwinter.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/109600/library_600x900.jpg",
@@ -2143,7 +2143,7 @@
   "no man's sky": {
     "steamAppId": 275850,
     "source": "steam",
-    "url": "/assets/no-man-s-sky.jpg?v=1793541982824",
+    "url": "assets/no-man-s-sky.jpg?v=1793541982824",
     "localFile": "assets/no-man-s-sky.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/library_600x900.jpg",
@@ -2152,7 +2152,7 @@
   "nte": {
     "steamAppId": 4508340,
     "source": "steam",
-    "url": "/assets/nte.jpg?v=1793541983413",
+    "url": "assets/nte.jpg?v=1793541983413",
     "localFile": "assets/nte.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4508340/a97040318ffcf7e02ee7dbe08dd2cd9cb3684f20/capsule_231x87.jpg?t=1793179644",
@@ -2161,7 +2161,7 @@
   "only up!": {
     "steamAppId": 2565960,
     "source": "steam",
-    "url": "/assets/only-up.jpg?v=1793541983467",
+    "url": "assets/only-up.jpg?v=1793541983467",
     "localFile": "assets/only-up.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2565960/library_600x900.jpg",
@@ -2170,7 +2170,7 @@
   "orcs must die! 2": {
     "steamAppId": 201790,
     "source": "steam",
-    "url": "/assets/orcs-must-die-2.jpg?v=1793541983742",
+    "url": "assets/orcs-must-die-2.jpg?v=1793541983742",
     "localFile": "assets/orcs-must-die-2.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/201790/library_600x900.jpg",
@@ -2179,7 +2179,7 @@
   "overcooked": {
     "steamAppId": 728880,
     "source": "steam",
-    "url": "/assets/overcooked.jpg?v=1793541983829",
+    "url": "assets/overcooked.jpg?v=1793541983829",
     "localFile": "assets/overcooked.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/728880/library_600x900.jpg",
@@ -2188,7 +2188,7 @@
   "overcooked! 2": {
     "steamAppId": 728880,
     "source": "steam",
-    "url": "/assets/overcooked-2.jpg?v=1793541984132",
+    "url": "assets/overcooked-2.jpg?v=1793541984132",
     "localFile": "assets/overcooked-2.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/728880/library_600x900.jpg",
@@ -2197,7 +2197,7 @@
   "paragon": {
     "steamAppId": 2454420,
     "source": "steam",
-    "url": "/assets/paragon.jpg?v=1793541984443",
+    "url": "assets/paragon.jpg?v=1793541984443",
     "localFile": "assets/paragon.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2454420/library_600x900.jpg",
@@ -2206,7 +2206,7 @@
   "pixel piracy": {
     "steamAppId": 264140,
     "source": "steam",
-    "url": "/assets/pixel-piracy.jpg?v=1793541984573",
+    "url": "assets/pixel-piracy.jpg?v=1793541984573",
     "localFile": "assets/pixel-piracy.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/264140/library_600x900.jpg",
@@ -2215,7 +2215,7 @@
   "peak": {
     "steamAppId": 3527290,
     "source": "steam",
-    "url": "/assets/peak.jpg?v=1793541984953",
+    "url": "assets/peak.jpg?v=1793541984953",
     "localFile": "assets/peak.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/1844964d7a353e50eb3cc979ea922729d8c1b0ad/capsule_231x87.jpg?t=1792684718",
@@ -2224,7 +2224,7 @@
   "portal": {
     "steamAppId": 620,
     "source": "steam",
-    "url": "/assets/portal.jpg?v=1793541985720",
+    "url": "assets/portal.jpg?v=1793541985720",
     "localFile": "assets/portal.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/620/library_600x900.jpg",
@@ -2233,7 +2233,7 @@
   "prey": {
     "steamAppId": 480490,
     "source": "steam",
-    "url": "/assets/prey.jpg?v=1793541985883",
+    "url": "assets/prey.jpg?v=1793541985883",
     "localFile": "assets/prey.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/480490/library_600x900.jpg",
@@ -2242,7 +2242,7 @@
   "project zomboid": {
     "steamAppId": 108600,
     "source": "steam",
-    "url": "/assets/project-zomboid.jpg?v=1793541986055",
+    "url": "assets/project-zomboid.jpg?v=1793541986055",
     "localFile": "assets/project-zomboid.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/library_600x900.jpg",
@@ -2251,7 +2251,7 @@
   "quake ii": {
     "steamAppId": 2320,
     "source": "steam",
-    "url": "/assets/quake-ii.jpg?v=1793541986294",
+    "url": "assets/quake-ii.jpg?v=1793541986294",
     "localFile": "assets/quake-ii.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2320/library_600x900.jpg",
@@ -2260,7 +2260,7 @@
   "prototype": {
     "steamAppId": 115320,
     "source": "steam",
-    "url": "/assets/prototype.jpg?v=1793541986504",
+    "url": "assets/prototype.jpg?v=1793541986504",
     "localFile": "assets/prototype.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/115320/header.jpg",
@@ -2269,7 +2269,7 @@
   "quake iii arena": {
     "steamAppId": 2200,
     "source": "steam",
-    "url": "/assets/quake-iii-arena.jpg?v=1793541986669",
+    "url": "assets/quake-iii-arena.jpg?v=1793541986669",
     "localFile": "assets/quake-iii-arena.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2200/library_600x900.jpg",
@@ -2278,7 +2278,7 @@
   "railroad tycoon 3": {
     "steamAppId": 7610,
     "source": "steam",
-    "url": "/assets/railroad-tycoon-3.jpg?v=1793541986986",
+    "url": "assets/railroad-tycoon-3.jpg?v=1793541986986",
     "localFile": "assets/railroad-tycoon-3.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/7610/library_600x900.jpg",
@@ -2287,7 +2287,7 @@
   "ratchet & clank": {
     "steamAppId": 1895880,
     "source": "steam",
-    "url": "/assets/ratchet-clank.jpg?v=1793541987449",
+    "url": "assets/ratchet-clank.jpg?v=1793541987449",
     "localFile": "assets/ratchet-clank.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1895880/library_600x900.jpg",
@@ -2296,7 +2296,7 @@
   "ratchet & clank: rift apart": {
     "steamAppId": 1895880,
     "source": "steam",
-    "url": "/assets/ratchet-clank-rift-apart.jpg?v=1793541987531",
+    "url": "assets/ratchet-clank-rift-apart.jpg?v=1793541987531",
     "localFile": "assets/ratchet-clank-rift-apart.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1895880/library_600x900.jpg",
@@ -2305,7 +2305,7 @@
   "rebel galaxy": {
     "steamAppId": 290300,
     "source": "steam",
-    "url": "/assets/rebel-galaxy.jpg?v=1793541987683",
+    "url": "assets/rebel-galaxy.jpg?v=1793541987683",
     "localFile": "assets/rebel-galaxy.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/290300/library_600x900.jpg",
@@ -2314,7 +2314,7 @@
   "resident evil 2": {
     "steamAppId": 883710,
     "source": "steam",
-    "url": "/assets/resident-evil-2.jpg?v=1793541988051",
+    "url": "assets/resident-evil-2.jpg?v=1793541988051",
     "localFile": "assets/resident-evil-2.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/883710/library_600x900.jpg",
@@ -2323,7 +2323,7 @@
   "resident evil 5": {
     "steamAppId": 21690,
     "source": "steam",
-    "url": "/assets/resident-evil-5.jpg?v=1793541988199",
+    "url": "assets/resident-evil-5.jpg?v=1793541988199",
     "localFile": "assets/resident-evil-5.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/21690/library_600x900.jpg",
@@ -2332,7 +2332,7 @@
   "risk of rain 2": {
     "steamAppId": 632360,
     "source": "steam",
-    "url": "/assets/risk-of-rain-2.jpg?v=1793541988550",
+    "url": "assets/risk-of-rain-2.jpg?v=1793541988550",
     "localFile": "assets/risk-of-rain-2.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/632360/library_600x900.jpg",
@@ -2341,7 +2341,7 @@
   "revenge of the savage planet": {
     "steamAppId": 2787320,
     "source": "steam",
-    "url": "/assets/revenge-of-the-savage-planet.jpg?v=1793541988785",
+    "url": "assets/revenge-of-the-savage-planet.jpg?v=1793541988785",
     "localFile": "assets/revenge-of-the-savage-planet.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2787320/library_600x900.jpg",
@@ -2350,7 +2350,7 @@
   "rogue legacy": {
     "steamAppId": 1253920,
     "source": "steam",
-    "url": "/assets/rogue-legacy.jpg?v=1793541988875",
+    "url": "assets/rogue-legacy.jpg?v=1793541988875",
     "localFile": "assets/rogue-legacy.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1253920/library_600x900.jpg",
@@ -2359,7 +2359,7 @@
   "rogue legacy 2": {
     "steamAppId": 1253920,
     "source": "steam",
-    "url": "/assets/rogue-legacy-2.jpg?v=1793541989087",
+    "url": "assets/rogue-legacy-2.jpg?v=1793541989087",
     "localFile": "assets/rogue-legacy-2.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1253920/library_600x900.jpg",
@@ -2368,7 +2368,7 @@
   "runescape": {
     "steamAppId": 1374490,
     "source": "steam",
-    "url": "/assets/runescape.jpg?v=1793541989560",
+    "url": "assets/runescape.jpg?v=1793541989560",
     "localFile": "assets/runescape.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1374490/f58347a40fdb989309b2b738c1176f67447aec11/capsule_231x87.jpg?t=1793372596",
@@ -2377,14 +2377,14 @@
   "saints row 2": {
     "steamAppId": 9480,
     "source": "steam",
-    "url": "/assets/saints-row-2.jpg?v=1793541989877",
+    "url": "assets/saints-row-2.jpg?v=1793541989877",
     "localFile": "assets/saints-row-2.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/9480/library_600x900.jpg",
     "updatedAt": 1793541989877
   },
   "s.t.a.l.k.e.r.: shadow of chernobyl": {
-    "url": "/assets/s-t-a-l-k-e-r-shadow-of-chernobyl.webp?v=1793541989963",
+    "url": "assets/s-t-a-l-k-e-r-shadow-of-chernobyl.webp?v=1793541989963",
     "fallbackUrl": null,
     "source": "cheapshark",
     "localFile": "assets/s-t-a-l-k-e-r-shadow-of-chernobyl.webp",
@@ -2396,7 +2396,7 @@
   "salt and sanctuary": {
     "steamAppId": 283640,
     "source": "steam",
-    "url": "/assets/salt-and-sanctuary.jpg?v=1793541990158",
+    "url": "assets/salt-and-sanctuary.jpg?v=1793541990158",
     "localFile": "assets/salt-and-sanctuary.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/283640/library_600x900.jpg",
@@ -2405,7 +2405,7 @@
   "sanctum": {
     "steamAppId": 210770,
     "source": "steam",
-    "url": "/assets/sanctum.jpg?v=1793541990356",
+    "url": "assets/sanctum.jpg?v=1793541990356",
     "localFile": "assets/sanctum.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/210770/library_600x900.jpg",
@@ -2414,7 +2414,7 @@
   "sea of stars": {
     "steamAppId": 1244090,
     "source": "steam",
-    "url": "/assets/sea-of-stars.jpg?v=1793541990941",
+    "url": "assets/sea-of-stars.jpg?v=1793541990941",
     "localFile": "assets/sea-of-stars.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1244090/library_600x900.jpg",
@@ -2423,7 +2423,7 @@
   "severed steel": {
     "steamAppId": 1227690,
     "source": "steam",
-    "url": "/assets/severed-steel.jpg?v=1793541992205",
+    "url": "assets/severed-steel.jpg?v=1793541992205",
     "localFile": "assets/severed-steel.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1227690/library_600x900.jpg",
@@ -2432,7 +2432,7 @@
   "shattered union": {
     "steamAppId": 3960,
     "source": "steam",
-    "url": "/assets/shattered-union.jpg?v=1793541992495",
+    "url": "assets/shattered-union.jpg?v=1793541992495",
     "localFile": "assets/shattered-union.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3960/library_600x900.jpg",
@@ -2441,7 +2441,7 @@
   "sid meier's pirates!": {
     "steamAppId": 3920,
     "source": "steam",
-    "url": "/assets/sid-meier-s-pirates.jpg?v=1793541992734",
+    "url": "assets/sid-meier-s-pirates.jpg?v=1793541992734",
     "localFile": "assets/sid-meier-s-pirates.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3920/library_600x900.jpg",
@@ -2450,7 +2450,7 @@
   "spelunky 2": {
     "steamAppId": 418530,
     "source": "steam",
-    "url": "/assets/spelunky-2.jpg?v=1793541993086",
+    "url": "assets/spelunky-2.jpg?v=1793541993086",
     "localFile": "assets/spelunky-2.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/418530/library_600x900.jpg",
@@ -2459,7 +2459,7 @@
   "songs for a hero": {
     "steamAppId": 389170,
     "source": "steam",
-    "url": "/assets/songs-for-a-hero.jpg?v=1793541993141",
+    "url": "assets/songs-for-a-hero.jpg?v=1793541993141",
     "localFile": "assets/songs-for-a-hero.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/389170/library_600x900.jpg",
@@ -2468,7 +2468,7 @@
   "star wars battlefront ii": {
     "steamAppId": 1237950,
     "source": "steam",
-    "url": "/assets/star-wars-battlefront-ii.jpg?v=1793541993524",
+    "url": "assets/star-wars-battlefront-ii.jpg?v=1793541993524",
     "localFile": "assets/star-wars-battlefront-ii.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1237950/library_600x900.jpg",
@@ -2477,7 +2477,7 @@
   "squirrel with a gun": {
     "steamAppId": 2067050,
     "source": "steam",
-    "url": "/assets/squirrel-with-a-gun.jpg?v=1793541993674",
+    "url": "assets/squirrel-with-a-gun.jpg?v=1793541993674",
     "localFile": "assets/squirrel-with-a-gun.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2067050/library_600x900.jpg",
@@ -2486,7 +2486,7 @@
   "steamworld dig 2": {
     "steamAppId": 571310,
     "source": "steam",
-    "url": "/assets/steamworld-dig-2.jpg?v=1793541994371",
+    "url": "assets/steamworld-dig-2.jpg?v=1793541994371",
     "localFile": "assets/steamworld-dig-2.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/571310/library_600x900.jpg",
@@ -2495,7 +2495,7 @@
   "stray": {
     "steamAppId": 1332010,
     "source": "steam",
-    "url": "/assets/stray.jpg?v=1793541994460",
+    "url": "assets/stray.jpg?v=1793541994460",
     "localFile": "assets/stray.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1332010/library_600x900.jpg",
@@ -2504,7 +2504,7 @@
   "star wars jedi: fallen order": {
     "steamAppId": 1172380,
     "source": "steam",
-    "url": "/assets/star-wars-jedi-fallen-order.jpg?v=1793541994495",
+    "url": "assets/star-wars-jedi-fallen-order.jpg?v=1793541994495",
     "localFile": "assets/star-wars-jedi-fallen-order.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172380/library_600x900.jpg",
@@ -2513,7 +2513,7 @@
   "street fighter 30th anniversary collection": {
     "steamAppId": 586200,
     "source": "steam",
-    "url": "/assets/street-fighter-30th-anniversary-collection.jpg?v=1793541994874",
+    "url": "assets/street-fighter-30th-anniversary-collection.jpg?v=1793541994874",
     "localFile": "assets/street-fighter-30th-anniversary-collection.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/586200/library_600x900.jpg",
@@ -2522,7 +2522,7 @@
   "streets of rage 4": {
     "steamAppId": 985890,
     "source": "steam",
-    "url": "/assets/streets-of-rage-4.jpg?v=1793541994916",
+    "url": "assets/streets-of-rage-4.jpg?v=1793541994916",
     "localFile": "assets/streets-of-rage-4.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/985890/library_600x900.jpg",
@@ -2531,7 +2531,7 @@
   "styx: shards of darkness": {
     "steamAppId": 355790,
     "source": "steam",
-    "url": "/assets/styx-shards-of-darkness.jpg?v=1793541995125",
+    "url": "assets/styx-shards-of-darkness.jpg?v=1793541995125",
     "localFile": "assets/styx-shards-of-darkness.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/355790/library_600x900.jpg",
@@ -2540,7 +2540,7 @@
   "suika game": {
     "steamAppId": 2723190,
     "source": "steam",
-    "url": "/assets/suika-game.jpg?v=1793541995703",
+    "url": "assets/suika-game.jpg?v=1793541995703",
     "localFile": "assets/suika-game.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2723190/library_600x900.jpg",
@@ -2549,7 +2549,7 @@
   "super meat boy": {
     "steamAppId": 40800,
     "source": "steam",
-    "url": "/assets/super-meat-boy.jpg?v=1793541997131",
+    "url": "assets/super-meat-boy.jpg?v=1793541997131",
     "localFile": "assets/super-meat-boy.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/40800/library_600x900.jpg",
@@ -2558,14 +2558,14 @@
   "tbh: task bar hero": {
     "steamAppId": 3678970,
     "source": "steam",
-    "url": "/assets/tbh-task-bar-hero.jpg?v=1793541998079",
+    "url": "assets/tbh-task-bar-hero.jpg?v=1793541998079",
     "localFile": "assets/tbh-task-bar-hero.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3678970/7861fe728b27e39bb204f8622a593cbca7a839b7/capsule_231x87_alt_assets_1.jpg?t=1792715315",
     "updatedAt": 1793541998079
   },
   "super smash bros. ultimate": {
-    "url": "/assets/super-smash-bros-ultimate.jpg?v=1793541998110",
+    "url": "assets/super-smash-bros-ultimate.jpg?v=1793541998110",
     "fallbackUrl": null,
     "source": "cheapshark",
     "localFile": "assets/super-smash-bros-ultimate.jpg",
@@ -2577,7 +2577,7 @@
   "the binding of isaac": {
     "steamAppId": 250900,
     "source": "steam",
-    "url": "/assets/the-binding-of-isaac.jpg?v=1793541998151",
+    "url": "assets/the-binding-of-isaac.jpg?v=1793541998151",
     "localFile": "assets/the-binding-of-isaac.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/250900/library_600x900.jpg",
@@ -2586,7 +2586,7 @@
   "the first descendant": {
     "steamAppId": 2074920,
     "source": "steam",
-    "url": "/assets/the-first-descendant.jpg?v=1793541998437",
+    "url": "assets/the-first-descendant.jpg?v=1793541998437",
     "localFile": "assets/the-first-descendant.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2074920/library_600x900.jpg",
@@ -2595,7 +2595,7 @@
   "the messenger": {
     "steamAppId": 764790,
     "source": "steam",
-    "url": "/assets/the-messenger.jpg?v=1793541998479",
+    "url": "assets/the-messenger.jpg?v=1793541998479",
     "localFile": "assets/the-messenger.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/764790/library_600x900.jpg",
@@ -2604,7 +2604,7 @@
   "the walking dead": {
     "steamAppId": 1449690,
     "source": "steam",
-    "url": "/assets/the-walking-dead.jpg?v=1793541998832",
+    "url": "assets/the-walking-dead.jpg?v=1793541998832",
     "localFile": "assets/the-walking-dead.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1449690/library_600x900.jpg",
@@ -2613,14 +2613,14 @@
   "the sims 4": {
     "steamAppId": 1222670,
     "source": "steam",
-    "url": "/assets/the-sims-4.jpg?v=1793541998869",
+    "url": "assets/the-sims-4.jpg?v=1793541998869",
     "localFile": "assets/the-sims-4.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222670/library_600x900.jpg",
     "updatedAt": 1793541998869
   },
   "the legend of zelda: link's awakening": {
-    "url": "/assets/the-legend-of-zelda-link-s-awakening.jpg?v=1793541999404",
+    "url": "assets/the-legend-of-zelda-link-s-awakening.jpg?v=1793541999404",
     "fallbackUrl": null,
     "source": "cheapshark",
     "localFile": "assets/the-legend-of-zelda-link-s-awakening.jpg",
@@ -2632,7 +2632,7 @@
   "titanfall 2": {
     "steamAppId": 1237970,
     "source": "steam",
-    "url": "/assets/titanfall-2.jpg?v=1793541999487",
+    "url": "assets/titanfall-2.jpg?v=1793541999487",
     "localFile": "assets/titanfall-2.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1237970/library_600x900.jpg",
@@ -2641,7 +2641,7 @@
   "tom clancy's the division": {
     "steamAppId": 2221490,
     "source": "steam",
-    "url": "/assets/tom-clancy-s-the-division.jpg?v=1793541999671",
+    "url": "assets/tom-clancy-s-the-division.jpg?v=1793541999671",
     "localFile": "assets/tom-clancy-s-the-division.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2221490/library_600x900.jpg",
@@ -2650,7 +2650,7 @@
   "tom clancy's the division 2": {
     "steamAppId": 2221490,
     "source": "steam",
-    "url": "/assets/tom-clancy-s-the-division-2.jpg?v=1793541999694",
+    "url": "assets/tom-clancy-s-the-division-2.jpg?v=1793541999694",
     "localFile": "assets/tom-clancy-s-the-division-2.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2221490/library_600x900.jpg",
@@ -2659,7 +2659,7 @@
   "torchlight": {
     "steamAppId": 1974050,
     "source": "steam",
-    "url": "/assets/torchlight.jpg?v=1793541999781",
+    "url": "assets/torchlight.jpg?v=1793541999781",
     "localFile": "assets/torchlight.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1974050/library_600x900.jpg",
@@ -2668,7 +2668,7 @@
   "travellers rest": {
     "steamAppId": 1139980,
     "source": "steam",
-    "url": "/assets/travellers-rest.jpg?v=1793542000027",
+    "url": "assets/travellers-rest.jpg?v=1793542000027",
     "localFile": "assets/travellers-rest.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1139980/library_600x900.jpg",
@@ -2677,7 +2677,7 @@
   "trine": {
     "steamAppId": 35700,
     "source": "steam",
-    "url": "/assets/trine.jpg?v=1793542000163",
+    "url": "assets/trine.jpg?v=1793542000163",
     "localFile": "assets/trine.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/35700/library_600x900.jpg",
@@ -2686,7 +2686,7 @@
   "ufo 50": {
     "steamAppId": 1147860,
     "source": "steam",
-    "url": "/assets/ufo-50.jpg?v=1793542000559",
+    "url": "assets/ufo-50.jpg?v=1793542000559",
     "localFile": "assets/ufo-50.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1147860/library_600x900.jpg",
@@ -2695,7 +2695,7 @@
   "valdis story: abyssal city": {
     "steamAppId": 252030,
     "source": "steam",
-    "url": "/assets/valdis-story-abyssal-city.jpg?v=1793542000777",
+    "url": "assets/valdis-story-abyssal-city.jpg?v=1793542000777",
     "localFile": "assets/valdis-story-abyssal-city.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252030/header.jpg",
@@ -2704,7 +2704,7 @@
   "void bastards": {
     "steamAppId": 857980,
     "source": "steam",
-    "url": "/assets/void-bastards.jpg?v=1793542000857",
+    "url": "assets/void-bastards.jpg?v=1793542000857",
     "localFile": "assets/void-bastards.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/857980/library_600x900.jpg",
@@ -2713,7 +2713,7 @@
   "volgarr the viking": {
     "steamAppId": 247240,
     "source": "steam",
-    "url": "/assets/volgarr-the-viking.jpg?v=1793542001322",
+    "url": "assets/volgarr-the-viking.jpg?v=1793542001322",
     "localFile": "assets/volgarr-the-viking.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/247240/library_600x900.jpg",
@@ -2722,7 +2722,7 @@
   "volgarr the viking ii": {
     "steamAppId": 2195140,
     "source": "steam",
-    "url": "/assets/volgarr-the-viking-ii.jpg?v=1793542001542",
+    "url": "assets/volgarr-the-viking-ii.jpg?v=1793542001542",
     "localFile": "assets/volgarr-the-viking-ii.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2195140/library_600x900.jpg",
@@ -2731,7 +2731,7 @@
   "warframe": {
     "steamAppId": 230410,
     "source": "steam",
-    "url": "/assets/warframe.jpg?v=1793542001617",
+    "url": "assets/warframe.jpg?v=1793542001617",
     "localFile": "assets/warframe.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/230410/library_600x900.jpg",
@@ -2740,7 +2740,7 @@
   "wall world": {
     "steamAppId": 4218360,
     "source": "steam",
-    "url": "/assets/wall-world.jpg?v=1793542001706",
+    "url": "assets/wall-world.jpg?v=1793542001706",
     "localFile": "assets/wall-world.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4218360/3a2af915aeb74c973cb118adecb80290199881ea/capsule_231x87.jpg?t=1793088374",
@@ -2749,7 +2749,7 @@
   "warhammer 40,000: mechanicus": {
     "steamAppId": 673880,
     "source": "steam",
-    "url": "/assets/warhammer-40-000-mechanicus.jpg?v=1793542002289",
+    "url": "assets/warhammer-40-000-mechanicus.jpg?v=1793542002289",
     "localFile": "assets/warhammer-40-000-mechanicus.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/673880/library_600x900.jpg",
@@ -2758,7 +2758,7 @@
   "windrose": {
     "steamAppId": 3041230,
     "source": "steam",
-    "url": "/assets/windrose.jpg?v=1793542002749",
+    "url": "assets/windrose.jpg?v=1793542002749",
     "localFile": "assets/windrose.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3041230/library_600x900.jpg",
@@ -2767,7 +2767,7 @@
   "x-com: apocalypse": {
     "steamAppId": 7660,
     "source": "steam",
-    "url": "/assets/x-com-apocalypse.jpg?v=1793542002921",
+    "url": "assets/x-com-apocalypse.jpg?v=1793542002921",
     "localFile": "assets/x-com-apocalypse.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/7660/library_600x900.jpg",
@@ -2776,7 +2776,7 @@
   "x-com: enforcer": {
     "steamAppId": 7770,
     "source": "steam",
-    "url": "/assets/x-com-enforcer.jpg?v=1793542003209",
+    "url": "assets/x-com-enforcer.jpg?v=1793542003209",
     "localFile": "assets/x-com-enforcer.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/7770/library_600x900.jpg",
@@ -2785,7 +2785,7 @@
   "x-com: interceptor": {
     "steamAppId": 7730,
     "source": "steam",
-    "url": "/assets/x-com-interceptor.jpg?v=1793542003248",
+    "url": "assets/x-com-interceptor.jpg?v=1793542003248",
     "localFile": "assets/x-com-interceptor.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/7730/library_600x900.jpg",
@@ -2794,7 +2794,7 @@
   "x-com: ufo defense": {
     "steamAppId": 7760,
     "source": "steam",
-    "url": "/assets/x-com-ufo-defense.jpg?v=1793542003552",
+    "url": "assets/x-com-ufo-defense.jpg?v=1793542003552",
     "localFile": "assets/x-com-ufo-defense.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/7760/library_600x900.jpg",
@@ -2803,7 +2803,7 @@
   "x-com: terror from the deep": {
     "steamAppId": 7650,
     "source": "steam",
-    "url": "/assets/x-com-terror-from-the-deep.jpg?v=1793542003794",
+    "url": "assets/x-com-terror-from-the-deep.jpg?v=1793542003794",
     "localFile": "assets/x-com-terror-from-the-deep.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/7650/header.jpg",
@@ -2812,7 +2812,7 @@
   "xcom: enemy unknown": {
     "steamAppId": 200510,
     "source": "steam",
-    "url": "/assets/xcom-enemy-unknown.jpg?v=1793542003823",
+    "url": "assets/xcom-enemy-unknown.jpg?v=1793542003823",
     "localFile": "assets/xcom-enemy-unknown.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/200510/library_600x900.jpg",
@@ -2821,7 +2821,7 @@
   "zombie driver": {
     "steamAppId": 220820,
     "source": "steam",
-    "url": "/assets/zombie-driver.jpg?v=1793542004138",
+    "url": "assets/zombie-driver.jpg?v=1793542004138",
     "localFile": "assets/zombie-driver.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220820/library_600x900.jpg",
@@ -2833,7 +2833,7 @@
     "source": "cheapshark"
   },
   "dark messiah of might & magic": {
-    "url": "/assets/dark-messiah-of-might-magic.jpg?v=1793542493186",
+    "url": "assets/dark-messiah-of-might-magic.jpg?v=1793542493186",
     "fallbackUrl": null,
     "source": "wikipedia",
     "localFile": "assets/dark-messiah-of-might-magic.jpg",
@@ -2856,7 +2856,7 @@
   "red faction: guerrilla": {
     "steamAppId": 20500,
     "source": "steam",
-    "url": "/assets/red-faction-guerrilla.jpg?v=1793542493190",
+    "url": "assets/red-faction-guerrilla.jpg?v=1793542493190",
     "localFile": "assets/red-faction-guerrilla.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/20500/library_600x900.jpg",
@@ -2865,7 +2865,7 @@
   "serious sam: the first encounter": {
     "steamAppId": 41050,
     "source": "steam",
-    "url": "/assets/serious-sam-the-first-encounter.jpg?v=1793542493191",
+    "url": "assets/serious-sam-the-first-encounter.jpg?v=1793542493191",
     "localFile": "assets/serious-sam-the-first-encounter.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/41050/library_600x900.jpg",
@@ -2874,7 +2874,7 @@
   "serious sam: the second encounter": {
     "steamAppId": 41060,
     "source": "steam",
-    "url": "/assets/serious-sam-the-second-encounter.jpg?v=1793542493193",
+    "url": "assets/serious-sam-the-second-encounter.jpg?v=1793542493193",
     "localFile": "assets/serious-sam-the-second-encounter.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/41060/library_600x900.jpg",
@@ -2883,14 +2883,14 @@
   "warhammer 40,000: dawn of war ii": {
     "steamAppId": 15620,
     "source": "steam",
-    "url": "/assets/warhammer-40-000-dawn-of-war-ii.jpg?v=1793542493196",
+    "url": "assets/warhammer-40-000-dawn-of-war-ii.jpg?v=1793542493196",
     "localFile": "assets/warhammer-40-000-dawn-of-war-ii.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/15620/library_600x900.jpg",
     "updatedAt": 1793542001979
   },
   "command & conquer": {
-    "url": "/assets/command-conquer.jpg?v=1793542493197",
+    "url": "assets/command-conquer.jpg?v=1793542493197",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1213210/header.jpg",
     "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1213210/capsule_231x87.jpg?t=1779987581",
     "steamAppId": 1213210,
@@ -2902,7 +2902,7 @@
     "updatedAt": 1793470071789
   },
   "dead or alive 5": {
-    "url": "/assets/dead-or-alive-5.jpg?v=1793542493198",
+    "url": "assets/dead-or-alive-5.jpg?v=1793542493198",
     "fallbackUrl": null,
     "source": "cheapshark",
     "localFile": "assets/dead-or-alive-5.jpg",
@@ -2924,7 +2924,7 @@
   },
   "dying light": {
     "source": "cheapshark",
-    "url": "/assets/dying-light.jpg?v=1793542493199",
+    "url": "assets/dying-light.jpg?v=1793542493199",
     "localFile": "assets/dying-light.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://www.wingamestore.com/images_boxshots/master/dying-light-the-following-1564769378.jpg",
@@ -2933,14 +2933,14 @@
   "ori and the blind forest": {
     "steamAppId": 387290,
     "source": "steam",
-    "url": "/assets/ori-and-the-blind-forest.jpg?v=1793542493201",
+    "url": "assets/ori-and-the-blind-forest.jpg?v=1793542493201",
     "localFile": "assets/ori-and-the-blind-forest.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/387290/library_600x900.jpg",
     "updatedAt": 1793541983784
   },
   "plants vs. zombies": {
-    "url": "/assets/plants-vs-zombies.jpg?v=1793542493204",
+    "url": "assets/plants-vs-zombies.jpg?v=1793542493204",
     "fallbackUrl": null,
     "source": "cheapshark",
     "localFile": "assets/plants-vs-zombies.jpg",
@@ -2952,7 +2952,7 @@
   "poker night at the inventory": {
     "steamAppId": 3897800,
     "source": "steam",
-    "url": "/assets/poker-night-at-the-inventory.jpg?v=1793542493207",
+    "url": "assets/poker-night-at-the-inventory.jpg?v=1793542493207",
     "localFile": "assets/poker-night-at-the-inventory.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3897800/2180b4065487728370f100a654ad1fd12bfceb28/capsule_231x87.jpg?t=1774119583",
@@ -2961,14 +2961,14 @@
   "railroad tycoon 2": {
     "steamAppId": 7620,
     "source": "steam",
-    "url": "/assets/railroad-tycoon-2.jpg?v=1793542493208",
+    "url": "assets/railroad-tycoon-2.jpg?v=1793542493208",
     "localFile": "assets/railroad-tycoon-2.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/7620/library_600x900.jpg",
     "updatedAt": 1793541987227
   },
   "rocksmith 2014": {
-    "url": "/assets/rocksmith-2014.jpg?v=1793542493210",
+    "url": "assets/rocksmith-2014.jpg?v=1793542493210",
     "fallbackUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/221680/header.jpg",
     "tinyUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/221680/84e612e826e79c986f3f61bdc5dba8b4dc000a04/capsule_231x87.jpg?t=1738085431",
     "steamAppId": 221680,
@@ -2980,7 +2980,7 @@
     "updatedAt": 1793541989391
   },
   "sid meier's civilization iii": {
-    "url": "/assets/sid-meier-s-civilization-iii.jpg?v=1793542493211",
+    "url": "assets/sid-meier-s-civilization-iii.jpg?v=1793542493211",
     "fallbackUrl": null,
     "source": "wikipedia",
     "localFile": "assets/sid-meier-s-civilization-iii.jpg",
@@ -2990,7 +2990,7 @@
     "updatedAt": 1793470147987
   },
   "star wars: the force unleashed": {
-    "url": "/assets/star-wars-the-force-unleashed.png?v=1793542493212",
+    "url": "assets/star-wars-the-force-unleashed.png?v=1793542493212",
     "fallbackUrl": null,
     "source": "wikipedia",
     "localFile": "assets/star-wars-the-force-unleashed.png",
@@ -3002,7 +3002,7 @@
   "the witcher 2: assassins of kings": {
     "steamAppId": 20920,
     "source": "steam",
-    "url": "/assets/the-witcher-2-assassins-of-kings.jpg?v=1793542493213",
+    "url": "assets/the-witcher-2-assassins-of-kings.jpg?v=1793542493213",
     "localFile": "assets/the-witcher-2-assassins-of-kings.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/20920/library_600x900.jpg",
@@ -3011,10 +3011,27 @@
   "the witcher 3: wild hunt": {
     "steamAppId": 292030,
     "source": "steam",
-    "url": "/assets/the-witcher-3-wild-hunt.jpg?v=1793542493214",
+    "url": "assets/the-witcher-3-wild-hunt.jpg?v=1793542493214",
     "localFile": "assets/the-witcher-3-wild-hunt.jpg",
     "hasLocalAsset": true,
     "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/library_600x900.jpg",
     "updatedAt": 1793541999352
+  },
+  "aion": {
+    "steamAppId": 3393110,
+    "source": "steam",
+    "url": "assets/aion.jpg?v=1793542848794",
+    "localFile": "assets/aion.jpg",
+    "hasLocalAsset": true,
+    "remoteUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3393110/a5a6447c5d72174e8e9eb7dfc68d37a9597bf619/capsule_231x87.jpg?t=1792771538",
+    "updatedAt": 1793542848794
+  },
+  "demon's souls": {
+    "source": "wikipedia",
+    "url": "assets/demon-s-souls.png?v=1793542849277",
+    "localFile": "assets/demon-s-souls.png",
+    "hasLocalAsset": true,
+    "remoteUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Hidetaka_Miyazaki%2C_The_Game_Awards_2022_%28cropped%29.png/500px-Hidetaka_Miyazaki%2C_The_Game_Awards_2022_%28cropped%29.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "updatedAt": 1793542849277
   }
 }

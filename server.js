@@ -110,12 +110,13 @@ function findLocalAssetForGame(gameName) {
 
   // 1. Check recorded localFile in covers.json
   if (cached && cached.localFile) {
-    const absPath = path.join(ROOT_DIR, cached.localFile);
+    const cleanRel = cached.localFile.replace(/^\/+/, '').replace(/\\/g, '/');
+    const absPath = path.join(ROOT_DIR, cleanRel);
     if (fs.existsSync(absPath) && fs.statSync(absPath).isFile()) {
       const mtime = Math.floor(fs.statSync(absPath).mtimeMs);
       return {
-        url: `/${cached.localFile.replace(/\\/g, '/')}?v=${mtime}`,
-        localFile: cached.localFile,
+        url: `${cleanRel}?v=${mtime}`,
+        localFile: cleanRel,
         hasLocalAsset: true,
         remoteUrl: cached.remoteUrl || null,
         source: 'local'
@@ -131,7 +132,7 @@ function findLocalAssetForGame(gameName) {
       const mtime = Math.floor(fs.statSync(absPath).mtimeMs);
       const entry = {
         ...(cached || {}),
-        url: `/${relPath}?v=${mtime}`,
+        url: `${relPath}?v=${mtime}`,
         localFile: relPath,
         hasLocalAsset: true,
         isCustom: false,
@@ -282,7 +283,7 @@ async function downloadAndSaveAsset(gameName, candidateUrls, metadata = {}) {
   const key = normalizeName(gameName);
   const record = {
     ...metadata,
-    url: `/${relPath}?v=${mtime}`,
+    url: `${relPath}?v=${mtime}`,
     localFile: relPath,
     hasLocalAsset: true,
     remoteUrl: usedUrl,
@@ -321,7 +322,7 @@ function saveDataUrlAsset(gameName, dataUrl, metadata = {}) {
   const key = normalizeName(gameName);
   const record = {
     ...metadata,
-    url: `/${relPath}?v=${mtime}`,
+    url: `${relPath}?v=${mtime}`,
     localFile: relPath,
     hasLocalAsset: true,
     remoteUrl: metadata.remoteUrl || null,

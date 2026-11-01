@@ -146,12 +146,14 @@
 
   function isFinalizedCover(cover) {
     if (!cover || !cover.url) return false;
+    const u = String(cover.url);
     // If a game already has a local asset in assets/ or a user-saved custom cover, it does not reload from APIs
     return Boolean(
       cover.hasLocalAsset ||
         cover.isCustom ||
         cover.source === 'local' ||
-        String(cover.url).startsWith('/assets/')
+        u.startsWith('assets/') ||
+        u.startsWith('/assets/')
     );
   }
 
@@ -563,7 +565,7 @@
         img.remove();
       }
     };
-    img.src = cover.url;
+    img.src = String(cover.url).replace(/^\/+assets\//, 'assets/');
   }
 
   // Create a DOM node for a single game card
