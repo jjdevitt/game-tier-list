@@ -2,15 +2,15 @@
 
 # **Overview**
 
-A compilation of the 59 video games ranked across our sessions, organized from S-Tier down to D-Tier.
+A compilation of the 64 video games ranked across our sessions, organized from S-Tier down to D-Tier.
 
 # **Tier Breakdown Summary**
 
 | Tier | Description | Count | Games |
 | :---- | :---- | :---- | :---- |
-| **S-Tier** | Exceptional masterpieces and personal favorites | 14 | Axiom Verge, Axiom Verge 2, Celeste, Darkest Dungeon, Diablo II, Factorio, Hades II, Minishoot' Adventures, Portal 2, Tactical Breach Wizards, Tunic, Vampire Survivors, Outer Wilds, ELDEN RING |
-| **A-Tier** | Outstanding titles with fantastic gameplay and design | 16 | Bloodstained: Ritual of the Night, Baldur's Gate 3, Sekiro: Shadows Die Twice, Into the Breach, Oxygen Not Included, Control, Cuphead, Left 4 Dead, Left 4 Dead 2, Path of Exile, Path of Exile 2, God of War, God of War Ragnarök, Hollow Knight: Silksong, Hollow Knight, Diablo III |
-| **B-Tier** | Solid, enjoyable games worth playing | 17 | Dave the Diver, Dead Cells, A Plague Tale: Innocence, Aperture Desk Job, Animal Crossing: New Horizons, Starfield, PRAGMATA, Astral Ascent, Cryptmaster, Diablo IV, V Rising, KILL KNIGHT, Last Epoch, Mark of the Ninja, Crypt of the NecroDancer, Batman: Arkham Asylum, BioShock |
+| **S-Tier** | Exceptional masterpieces and personal favorites | 14 | Tactical Breach Wizards, Portal 2, ELDEN RING, Outer Wilds, Celeste, Tunic, Axiom Verge 2, Axiom Verge, Hades II, Minishoot' Adventures, Vampire Survivors, Diablo II, Darkest Dungeon, Factorio |
+| **A-Tier** | Outstanding titles with fantastic gameplay and design | 18 | Bloodstained: Ritual of the Night, Baldur's Gate 3, Sekiro: Shadows Die Twice, Into the Breach, Oxygen Not Included, Control, Cuphead, Left 4 Dead, Left 4 Dead 2, Path of Exile, Path of Exile 2, God of War, God of War Ragnarök, Hollow Knight: Silksong, Hollow Knight, Diablo III, Splatoon Raiders, Satisfactory |
+| **B-Tier** | Solid, enjoyable games worth playing | 20 | Dave the Diver, Dead Cells, Sea of Stars, V Rising, KILL KNIGHT, Diablo IV, A Plague Tale: Innocence, Aperture Desk Job, Animal Crossing: New Horizons, Starfield, PRAGMATA, Astral Ascent, Cryptmaster, Last Epoch, Mark of the Ninja, Crypt of the NecroDancer, Batman: Arkham Asylum, BioShock, Stray, Severed Steel |
 | **C-Tier** | Decent casual fun, but limited depth or appeal | 10 | Cook, Serve, Delicious\! 2\!\!, Big Brain Academy: Brain vs. Brain, Curse of the Dead Gods, Aimlabs, Assassin's Creed II, LET IT DIE, Lost Planet: Extreme Condition, Loop Hero, Destiny 2, Baby Steps |
 | **D-Tier** | Underwhelming or frustrating experiences | 2 | Death's Door, Call of Duty: Modern Warfare 2 (2009) |
 
@@ -18,22 +18,22 @@ A compilation of the 59 video games ranked across our sessions, organized from S
 
 ## **S-Tier (14 Games)**
 
-* **Axiom Verge**  
-* **Axiom Verge 2**  
+* **Tactical Breach Wizards**  
+* **Portal 2**  
+* **ELDEN RING**  
+* **Outer Wilds**  
 * **Celeste**  
-* **Darkest Dungeon**  
-* **Diablo II**  
-* **Factorio**  
+* **Tunic**  
+* **Axiom Verge 2**  
+* **Axiom Verge**  
 * **Hades II**  
 * **Minishoot' Adventures**  
-* **Portal 2**  
-* **Tactical Breach Wizards**  
-* **Tunic**  
 * **Vampire Survivors**  
-* **Outer Wilds**  
-* **ELDEN RING**
+* **Diablo II**  
+* **Darkest Dungeon**  
+* **Factorio**
 
-## **A-Tier (16 Games)**
+## **A-Tier (18 Games)**
 
 * **Bloodstained: Ritual of the Night**  
 * **Baldur's Gate 3**  
@@ -50,12 +50,18 @@ A compilation of the 59 video games ranked across our sessions, organized from S
 * **God of War Ragnarök**  
 * **Hollow Knight: Silksong**  
 * **Hollow Knight**  
-* **Diablo III**
+* **Diablo III**  
+* **Splatoon Raiders**  
+* **Satisfactory**
 
-## **B-Tier (17 Games)**
+## **B-Tier (20 Games)**
 
 * **Dave the Diver**  
 * **Dead Cells**  
+* **Sea of Stars**  
+* **V Rising**  
+* **KILL KNIGHT**  
+* **Diablo IV**  
 * **A Plague Tale: Innocence**  
 * **Aperture Desk Job**  
 * **Animal Crossing: New Horizons**  
@@ -63,14 +69,13 @@ A compilation of the 59 video games ranked across our sessions, organized from S
 * **PRAGMATA**  
 * **Astral Ascent**  
 * **Cryptmaster**  
-* **Diablo IV**  
-* **V Rising**  
-* **KILL KNIGHT**  
 * **Last Epoch**  
 * **Mark of the Ninja**  
 * **Crypt of the NecroDancer**  
 * **Batman: Arkham Asylum**  
-* **BioShock**
+* **BioShock**  
+* **Stray**  
+* **Severed Steel**
 
 ## **C-Tier (10 Games)**
 
