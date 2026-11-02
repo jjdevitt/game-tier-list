@@ -1069,8 +1069,8 @@ const server = http.createServer(async (req, res) => {
     return;
   }
 
-  // Static files (including /assets/*)
-  let safePath = pathname === '/' ? '/index.html' : decodeURIComponent(pathname);
+  // Static files (serve interactive editor at '/' when running locally; /index.html is the static GitHub Pages build)
+  let safePath = pathname === '/' ? '/editor.html' : decodeURIComponent(pathname);
   const filePath = path.join(ROOT_DIR, path.normalize(safePath));
   if (!filePath.startsWith(ROOT_DIR)) {
     res.writeHead(403);

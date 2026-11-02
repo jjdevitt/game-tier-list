@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Video Game Tier List — Local Editor</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="app-header">
+    <div class="header-left">
+      <div class="logo-badge">🎮</div>
+      <div>
+        <h1>Video Game Tier List</h1>
+        <p class="subtitle">
+          Synced with <code>tier_list.md</code>, <code>library.csv</code> &amp; local <code>assets/</code>
+        </p>
+      </div>
+    </div>
+
+    <div class="header-stats" id="headerStats">
+      <div class="stat-pill">
+        <span class="stat-value" id="rankedCount">0</span>
+        <span class="stat-label">Ranked</span>
+      </div>
+      <div class="stat-pill">
+        <span class="stat-value" id="unrankedCount">0</span>
+        <span class="stat-label">Unranked</span>
+      </div>
+      <div class="stat-pill">
+        <span class="stat-value" id="totalCount">0</span>
+        <span class="stat-label">Total Library</span>
+      </div>
+    </div>
+
+    <div class="header-actions">
+      <span class="unsaved-indicator hidden" id="unsavedBadge">● Unsaved changes</span>
+      <a href="index.html" target="_blank" class="btn btn-secondary" style="text-decoration:none" title="Open static GitHub HTML page">
+        Static Page ↗
+      </a>
+      <button type="button" class="btn btn-secondary" id="previewBtn" title="Preview generated tier_list.md">
+        Preview MD
+      </button>
+      <button type="button" class="btn btn-secondary hidden" id="resetBtn" title="Revert to last saved tier_list.md">
+        Reset
+      </button>
+      <button type="button" class="btn btn-primary" id="saveBtn">
+        <span class="save-icon">💾</span>
+        <span id="saveBtnText">Save to tier_list.md</span>
+      </button>
+    </div>
+  </header>
+
+  <main class="app-main">
+    <!-- Tier List Board -->
+    <section class="tier-board-section">
+      <div class="section-header">
+        <h2>Ranked Tiers</h2>
+        <span class="hint-text">Drag &amp; drop games between tiers • Click any cover or 🖼️ to change cover art</span>
+      </div>
+      <div class="tier-board" id="tierBoard">
+        <!-- Populated by app.js -->
+      </div>
+    </section>
+
+    <!-- Unranked Pool -->
+    <section class="unranked-section" id="unrankedSection">
+      <div class="unranked-header">
+        <div class="unranked-title-group">
+          <h2>Unranked Library</h2>
+          <span class="badge-count" id="unrankedFilteredCount">0 games</span>
+        </div>
+
+        <div class="unranked-controls">
+          <div class="search-box">
+            <span class="search-icon">🔍</span>
+            <input
+              type="text"
+              id="searchInput"
+              placeholder="Search unranked games..."
+              autocomplete="off"
+            />
+            <button type="button" class="clear-search hidden" id="clearSearchBtn" title="Clear search">✕</button>
+          </div>
+
+          <div class="platform-filters" id="platformFilters">
+            <button type="button" class="filter-pill active" data-platform="ALL">All</button>
+            <button type="button" class="filter-pill" data-platform="Steam">Steam</button>
+            <button type="button" class="filter-pill" data-platform="PS4">PS4</button>
+            <button type="button" class="filter-pill" data-platform="PS5">PS5</button>
+            <button type="button" class="filter-pill" data-platform="Switch">Switch</button>
+          </div>
+
+          <div class="sort-box">
+            <label for="sortSelect">Sort:</label>
+            <select id="sortSelect">
+              <option value="alpha">Name (A–Z)</option>
+              <option value="hours-desc">Steam Hours (High → Low)</option>
+              <option value="platforms-desc">Most Platforms</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="unranked-dropzone"
+        id="unrankedDropzone"
+        data-tier="UNRANKED"
+      >
+        <div class="unranked-grid" id="unrankedGrid">
+          <!-- Populated by app.js -->
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Change Cover Art Modal -->
+  <div class="modal-backdrop hidden" id="coverModal">
+    <div class="modal-content cover-modal-content">
+      <div class="modal-header">
+        <div>
+          <h3 id="coverModalTitle">Change Cover Art</h3>
+          <p class="modal-subtitle" id="coverAssetStatus">Checking local asset status...</p>
+        </div>
+        <button type="button" class="btn-close" id="closeCoverModalBtn">✕</button>
+      </div>
+
+      <div class="cover-modal-body">
+        <!-- Left column: Current / Selected Preview -->
+        <div class="cover-preview-pane">
+          <div class="cover-preview-label">Selected Cover Preview</div>
+          <div class="cover-preview-card" id="coverPreviewCard">
+            <img id="coverPreviewImg" alt="Cover preview" class="hidden" />
+            <div id="coverPreviewEmpty" class="cover-preview-empty">No Image Selected</div>
+          </div>
+          <p class="cover-note">
+            Saving a new cover removes the local file in <code>assets/</code> and saves your chosen cover instead.
+          </p>
+        </div>
+
+        <!-- Right column: Clipboard Paste / Search / Custom URL / File Upload -->
+        <div class="cover-options-pane">
+          <div class="cover-option-group">
+            <label class="option-label">1. Copy &amp; Paste Image from Clipboard</label>
+            <div class="clipboard-paste-zone" id="clipboardPasteZone" tabindex="0">
+              <div class="paste-zone-text">
+                <span class="paste-icon">📋</span>
+                <span id="pasteZoneLabel">Press <kbd>⌘V</kbd> / <kbd>Ctrl+V</kbd> anywhere in this modal to paste a copied image</span>
+              </div>
+              <button type="button" class="btn btn-secondary btn-sm" id="pasteClipboardBtn">
+                Paste from Clipboard
+              </button>
+            </div>
+          </div>
+
+          <div class="cover-option-group">
+            <label class="option-label" for="customCoverUrlInput">2. Or Paste Custom Image URL</label>
+            <div class="input-row">
+              <input
+                type="url"
+                id="customCoverUrlInput"
+                placeholder="https://example.com/cover.jpg"
+                autocomplete="off"
+              />
+              <button type="button" class="btn btn-secondary btn-sm" id="previewUrlBtn">Preview URL</button>
+            </div>
+          </div>
+
+          <div class="cover-option-group">
+            <label class="option-label" for="customCoverFileInput">3. Or Upload Image File</label>
+            <input type="file" id="customCoverFileInput" accept="image/*" class="file-input" />
+          </div>
+
+          <div class="cover-option-group">
+            <label class="option-label" for="coverSearchInput">4. Or Search Alternative Covers</label>
+            <div class="input-row">
+              <input
+                type="text"
+                id="coverSearchInput"
+                placeholder="Search game title..."
+                autocomplete="off"
+              />
+              <button type="button" class="btn btn-secondary btn-sm" id="coverSearchBtn">Search</button>
+            </div>
+            <div class="cover-candidates-grid" id="coverCandidatesGrid">
+              <!-- Populated dynamically -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger-outline btn-sm" id="resetCoverBtn" title="Remove custom cover and re-fetch default local asset">
+          Reset &amp; Re-download Asset
+        </button>
+        <div class="modal-footer-right">
+          <button type="button" class="btn btn-secondary" id="cancelCoverModalBtn">Cancel</button>
+          <button type="button" class="btn btn-primary" id="saveCoverBtn">Save Cover Instead</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Markdown Preview Modal -->
+  <div class="modal-backdrop hidden" id="previewModal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3><code>tier_list.md</code> Preview</h3>
+        <div class="modal-actions">
+          <button type="button" class="btn btn-secondary btn-sm" id="copyMdBtn">Copy Markdown</button>
+          <button type="button" class="btn-close" id="closeModalBtn">✕</button>
+        </div>
+      </div>
+      <pre class="markdown-preview" id="markdownPreviewText"></pre>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div class="toast-container" id="toastContainer"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>

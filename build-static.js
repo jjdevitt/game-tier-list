@@ -4,6 +4,7 @@ const path = require('path');
 const ROOT_DIR = __dirname;
 const DOCS_DIR = path.join(ROOT_DIR, 'docs');
 const DOCS_ASSETS_DIR = path.join(DOCS_DIR, 'assets');
+const STATIC_INDEX_HTML = path.join(ROOT_DIR, 'index.html');
 const STATIC_ROOT_HTML = path.join(ROOT_DIR, 'tier_list.html');
 const STATIC_DOCS_HTML = path.join(DOCS_DIR, 'index.html');
 const STYLES_CSS_PATH = path.join(ROOT_DIR, 'styles.css');
@@ -546,10 +547,13 @@ ${baseStyles}
 </html>`;
   }
 
-  fs.writeFileSync(STATIC_ROOT_HTML, renderHtmlDocument(false), 'utf8');
+  const rootHtmlContent = renderHtmlDocument(false);
+  fs.writeFileSync(STATIC_INDEX_HTML, rootHtmlContent, 'utf8');
+  fs.writeFileSync(STATIC_ROOT_HTML, rootHtmlContent, 'utf8');
   fs.writeFileSync(STATIC_DOCS_HTML, renderHtmlDocument(true), 'utf8');
 
   return {
+    indexHtml: STATIC_INDEX_HTML,
     rootHtml: STATIC_ROOT_HTML,
     docsHtml: STATIC_DOCS_HTML,
     totalRanked,
@@ -562,6 +566,7 @@ if (require.main === module) {
   console.log(
     `Generated static pages (${res.totalRanked} ranked, ${res.totalUnranked} unranked):`
   );
+  console.log(' -', res.indexHtml);
   console.log(' -', res.rootHtml);
   console.log(' -', res.docsHtml);
 }

@@ -12,8 +12,10 @@ An interactive Video Game Tier List manager and static showcase generator powere
 | [`library.csv`](./library.csv) | Full video game library with platform flags (`Steam`, `PS4`, `PS5`, `Switch`) and `Steam Hours Played`. Any game not in `tier_list.md` appears under **Unranked Library**. |
 | [`assets/`](./assets) | Local cover art store (`assets/<game-slug>.<ext>`). Once a game has a local asset here, it will not reload from external APIs. |
 | [`covers.json`](./covers.json) | Cover art metadata cache and custom cover overrides. |
-| [`server.js`](./server.js) | Zero-dependency local Node.js server that serves the interactive app, downloads covers to `assets/`, and saves updates directly to `tier_list.md`. |
-| [`build-static.js`](./build-static.js) | Static site generator that outputs [`tier_list.html`](./tier_list.html) and [`docs/index.html`](./docs/index.html) (+ [`docs/assets/`](./docs/assets)). |
+| [`editor.html`](./editor.html) | Interactive local editor UI served at `http://localhost:3000/` when running `server.js`. |
+| [`index.html`](./index.html) | Generated static showcase page served at the root of GitHub Pages (`https://jjdevitt.github.io/game-tier-list/`). |
+| [`server.js`](./server.js) | Zero-dependency local Node.js server that serves the interactive editor (`editor.html`) at `/`, downloads covers to `assets/`, and saves updates directly to `tier_list.md`. |
+| [`build-static.js`](./build-static.js) | Static site generator that outputs [`index.html`](./index.html), [`tier_list.html`](./tier_list.html), and [`docs/index.html`](./docs/index.html) (+ [`docs/assets/`](./docs/assets)). |
 
 ---
 
@@ -100,7 +102,7 @@ node build-static.js
 ### 2. Commit and Push to Git
 Stage the updated markdown, cover cache, assets, and generated static pages, then push to `main`:
 ```bash
-git add tier_list.md covers.json assets/ tier_list.html docs/
+git add tier_list.md covers.json assets/ index.html editor.html tier_list.html docs/
 git commit -m "Update game tier list rankings and covers"
 git push origin main
 ```
