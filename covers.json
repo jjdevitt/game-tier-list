@@ -3104,5 +3104,21 @@
     "hasLocalAsset": true,
     "remoteUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Logo_Mario_Party.svg/500px-Logo_Mario_Party.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
     "updatedAt": 1793565065651
+  },
+  "mario kart 8": {
+    "source": "wikipedia",
+    "url": "assets/mario-kart-8.jpg?v=1793585983281",
+    "localFile": "assets/mario-kart-8.jpg",
+    "hasLocalAsset": true,
+    "remoteUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Mario_Kart_Koopa%27s_Challenge_%28Universal_Studios_Japan%29_1.jpg/500px-Mario_Kart_Koopa%27s_Challenge_%28Universal_Studios_Japan%29_1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "updatedAt": 1793585983281
+  },
+  "warioware: get it together!": {
+    "source": "wikipedia",
+    "url": "assets/warioware-get-it-together.png?v=1793586030868",
+    "localFile": "assets/warioware-get-it-together.png",
+    "hasLocalAsset": true,
+    "remoteUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Wario_emblem.svg/500px-Wario_emblem.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "updatedAt": 1793586030868
   }
 }
